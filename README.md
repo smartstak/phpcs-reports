@@ -33,8 +33,10 @@ The following plugins are covered under this report:
 
 | ID | Bug Title
 |----|----------------------------
-| #1 | All `wpsyncsheets` plugins' API integration form fields must be REQUIRED. Right now it saves empty form. includes/class-prefix-plugin-settings.php
-| #2 | `SearchFilterSort` plugin Filter form's Categories section missing li tags. tempaltes/frontend/filters.php
+| #1 | All `wpsyncsheets` plugins' API integration form fields must be REQUIRED. Right now it saves empty form. 
+|    | `File:` plugin-folder/includes/class-prefix-plugin-settings.php
+| #2 | `SearchFilterSort` plugin Filter form's Categories section missing li tags.
+|    | `File:` searchfiltersort/templates/frontend/filters.php
 | #3 | Rest of errors, warning are reported in PHPCS report file in each plugin folder.
 
 ---
@@ -45,7 +47,8 @@ The following plugins are covered under this report:
 |----|----------------------------
 | #1 | - PSR-4 Autloading implemented with Composer for `SearchFilterSort` plugin. No need to include class files manually.
 | #2 | - Built assets [css, js] files with webpack build tool using wordpress/scripts and other dependencies.
-| #3 | - Implemented `PREFIX_Assets_URL` class for all plugins to load assets according to set `development` | `production` environment.
-|    | - like `class-wpsslwp-assets-url.php`
+| #3 | - Implemented `PREFIX_Assets_URL` class for all plugins to load assets according to
+|    | - CONSTANT `PREFIX_ENVIRONMENT`. Value can be`development` or `production` environment.
+|    | - File: `class-wpsslwp-assets-url.php`
 
 ---
