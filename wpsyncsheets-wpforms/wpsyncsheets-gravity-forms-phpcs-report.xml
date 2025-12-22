@@ -1,0 +1,1109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="3.13.5">
+<file name="includes\class-wpsslwp-dependencies.php">
+ <error line="36" column="5" severity="error" message="Doc comment for parameter &quot;$pro&quot; missing" source="Squiz.Commenting.FunctionComment.MissingParamTag"/>
+ <error line="41" column="56" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="Squiz.Functions.FunctionDeclarationArgumentSpacing.SpacingAfterOpen"/>
+ <error line="41" column="69" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="Squiz.Functions.FunctionDeclarationArgumentSpacing.SpacingBeforeClose"/>
+ <error line="45" column="9" severity="error" message="Space after opening control structure is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterStructureOpen"/>
+ <error line="45" column="9" severity="error" message="No space before opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeOpenParenthesis"/>
+ <error line="45" column="9" severity="error" message="No space after opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis"/>
+ <error line="45" column="9" severity="error" message="Expected 1 space after IF keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="45" column="16" severity="error" message="No space before closing parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis"/>
+ <error line="45" column="16" severity="error" message="Expected 1 space after closing parenthesis; found 0" source="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis"/>
+ <error line="45" column="17" severity="error" message="Space between opening control structure and closing parenthesis is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterCloseParenthesis"/>
+ <error line="49" column="9" severity="error" message="Expected 1 space after closing brace; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseBrace"/>
+ <error line="49" column="10" severity="error" message="Space after opening control structure is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterStructureOpen"/>
+ <error line="49" column="10" severity="error" message="No space before opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeOpenParenthesis"/>
+ <error line="49" column="10" severity="error" message="Expected 1 space after ELSE keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="49" column="10" severity="error" message="If control structure block found as the only statement within an &quot;else&quot; block. Use elseif instead." source="Universal.ControlStructures.DisallowLonelyIf.Found"/>
+ <error line="59" column="10" severity="error" message="Spaces must be used for mid-line alignment; tabs are not allowed" source="Universal.WhiteSpace.DisallowInlineTabs.NonIndentTabsUsed"/>
+ <error line="59" column="10" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="80" column="5" severity="error" message="Expected 5 spaces before asterisk; 4 found" source="Squiz.Commenting.DocCommentAlignment.SpaceBeforeStar"/>
+ <error line="81" column="70" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="Squiz.Functions.FunctionDeclarationArgumentSpacing.SpacingAfterOpen"/>
+ <error line="81" column="97" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="Squiz.Functions.FunctionDeclarationArgumentSpacing.SpacingBeforeClose"/>
+ <error line="82" column="9" severity="error" message="Inline comments must end in full-stops, exclamation marks, or question marks" source="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+ <error line="87" column="9" severity="error" message="Inline comments must end in full-stops, exclamation marks, or question marks" source="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+ <error line="89" column="1" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="90" column="9" severity="error" message="Inline comments must end in full-stops, exclamation marks, or question marks" source="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+ <error line="91" column="25" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="91" column="49" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="93" column="9" severity="error" message="Inline comments must end in full-stops, exclamation marks, or question marks" source="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+ <error line="94" column="22" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="94" column="51" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="96" column="9" severity="error" message="Inline comments must end in full-stops, exclamation marks, or question marks" source="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+ <error line="97" column="48" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="97" column="89" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="99" column="16" severity="error" message="Short array syntax is not allowed" source="Universal.Arrays.DisallowShortArraySyntax.Found"/>
+ <error line="100" column="32" severity="warning" message="Array double arrow not aligned correctly; expected 6 space(s) between &quot;'installed'&quot; and double arrow, but found 8." source="WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned"/>
+ <error line="101" column="32" severity="warning" message="Array double arrow not aligned correctly; expected 9 space(s) between &quot;'active'&quot; and double arrow, but found 11." source="WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned"/>
+ <error line="102" column="32" severity="warning" message="Array double arrow not aligned correctly; expected 1 space(s) between &quot;'network_active'&quot; and double arrow, but found 3." source="WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned"/>
+</file>
+<file name="includes\class-wpsslwp-google-api-functions.php">
+ <error line="143" column="22" severity="warning" message="When passing the $key parameter to get_post_meta(), it is recommended to also pass the $single parameter to explicitly indicate whether a single value or multiple values are expected to be returned." source="WordPress.WP.GetMetaSingle.Missing"/>
+ <error line="145" column="22" severity="warning" message="When passing the $key parameter to get_post_meta(), it is recommended to also pass the $single parameter to explicitly indicate whether a single value or multiple values are expected to be returned." source="WordPress.WP.GetMetaSingle.Missing"/>
+ <error line="228" column="18" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="228" column="37" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="240" column="15" severity="error" message="If control structure block found as the only statement within an &quot;else&quot; block. Use elseif instead." source="Universal.ControlStructures.DisallowLonelyIf.Found"/>
+ <error line="248" column="21" severity="error" message="Space after opening control structure is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterStructureOpen"/>
+ <error line="248" column="21" severity="error" message="No space before opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeOpenParenthesis"/>
+ <error line="248" column="21" severity="error" message="No space after opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis"/>
+ <error line="248" column="21" severity="error" message="Expected 1 space after IF keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="248" column="24" severity="error" message="Expected 1 space before &quot;!&quot;; 0 found" source="WordPress.WhiteSpace.OperatorSpacing.NoSpaceBefore"/>
+ <error line="248" column="107" severity="error" message="Expected 1 space after closing parenthesis; found 0" source="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis"/>
+ <error line="248" column="108" severity="error" message="Space between opening control structure and closing parenthesis is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterCloseParenthesis"/>
+ <error line="266" column="17" severity="error" message="Spaces must be used for mid-line alignment; tabs are not allowed" source="Universal.WhiteSpace.DisallowInlineTabs.NonIndentTabsUsed"/>
+ <error line="266" column="17" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="267" column="82" severity="error" message="Expected 1 space after &quot;!&quot;; 0 found" source="WordPress.WhiteSpace.OperatorSpacing.NoSpaceAfter"/>
+ <error line="268" column="17" severity="error" message="Space after opening control structure is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterStructureOpen"/>
+ <error line="268" column="17" severity="error" message="No space before opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeOpenParenthesis"/>
+ <error line="268" column="17" severity="error" message="Expected 1 space after IF keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="268" column="21" severity="error" message="TRUE, FALSE and NULL must be lowercase; expected &quot;null&quot; but found &quot;Null&quot;" source="Generic.PHP.LowerCaseConstant.Found"/>
+ <error line="268" column="80" severity="error" message="Expected 1 space after closing parenthesis; found 0" source="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis"/>
+ <error line="268" column="81" severity="error" message="Space between opening control structure and closing parenthesis is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterCloseParenthesis"/>
+ <error line="284" column="1" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="287" column="17" severity="error" message="Space after opening control structure is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterStructureOpen"/>
+ <error line="287" column="17" severity="error" message="No space before opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeOpenParenthesis"/>
+ <error line="287" column="17" severity="error" message="No space after opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis"/>
+ <error line="287" column="17" severity="error" message="Expected 1 space after IF keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="287" column="20" severity="error" message="Expected 1 space before &quot;!&quot;; 0 found" source="WordPress.WhiteSpace.OperatorSpacing.NoSpaceBefore"/>
+ <error line="287" column="68" severity="error" message="Expected 1 space after closing parenthesis; found 0" source="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis"/>
+ <error line="287" column="69" severity="error" message="Space between opening control structure and closing parenthesis is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterCloseParenthesis"/>
+</file>
+<file name="includes\class-wpsslwp-notifications.php">
+ <error line="1" column="1" severity="error" message="End of line character is invalid; expected &quot;\n&quot; but found &quot;\r\n&quot;" source="Generic.Files.LineEndings.InvalidEOLChar"/>
+ <error line="52" column="13" severity="error" message="Inline comments must end in full-stops, exclamation marks, or question marks" source="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+ <error line="80" column="9" severity="error" message="Function closing brace must go on the next line following the body; found 1 blank lines before brace" source="PSR2.Methods.FunctionClosingBrace.SpacingBeforeClose"/>
+ <error line="99" column="13" severity="error" message="Inline comments must end in full-stops, exclamation marks, or question marks" source="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+ <error line="133" column="13" severity="error" message="Inline comments must end in full-stops, exclamation marks, or question marks" source="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+</file>
+<file name="includes\class-wpsslwp-plugin-settings.php">
+ <error line="64" column="9" severity="error" message="Inline comments must end in full-stops, exclamation marks, or question marks" source="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+ <error line="65" column="9" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="65" column="110" severity="error" message="Expected 1 space before the array closer in a single line array. Found: no spaces" source="NormalizedArrays.Arrays.ArrayBraceSpacing.SpaceBeforeArrayCloserSingleLine"/>
+ <error line="152" column="9" severity="error" message="Space after opening control structure is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterStructureOpen"/>
+ <error line="152" column="9" severity="error" message="No space before opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeOpenParenthesis"/>
+ <error line="152" column="9" severity="error" message="Expected 1 space after IF keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="152" column="87" severity="error" message="No space before closing parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis"/>
+ <error line="152" column="87" severity="error" message="Expected 1 space after closing parenthesis; found 0" source="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis"/>
+ <error line="152" column="88" severity="error" message="Space between opening control structure and closing parenthesis is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterCloseParenthesis"/>
+ <error line="221" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="222" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="233" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="271" column="12" severity="error" message="Missing doc comment for function wpsslwp_plugin_page()" source="Squiz.Commenting.FunctionComment.Missing"/>
+ <error line="368" column="42" severity="error" message="Expected 1 space before closing PHP tag; 2 found" source="Squiz.PHP.EmbeddedPhp.SpacingBeforeClose"/>
+ <error line="368" column="53" severity="error" message="All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found 'WPSSLWP_BUY_PRO_VERSION_URL'." source="WordPress.Security.EscapeOutput.OutputNotEscaped"/>
+ <error line="389" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="402" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="465" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="512" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="547" column="53" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="548" column="101" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="550" column="67" severity="warning" message="Equals sign not aligned with surrounding assignments; expected 6 spaces but found 1 space" source="Generic.Formatting.MultipleStatementAlignment.NotSameWarning"/>
+ <error line="550" column="91" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="550" column="172" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="553" column="53" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="555" column="53" severity="error" message="Line indented incorrectly; expected 14 tabs, found 13" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="559" column="61" severity="warning" message="Usage of ELSE IF is discouraged; use ELSEIF instead" source="PSR2.ControlStructures.ElseIfDeclaration.NotAllowed"/>
+ <error line="559" column="66" severity="error" message="Space after opening control structure is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterStructureOpen"/>
+ <error line="559" column="66" severity="error" message="No space before opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeOpenParenthesis"/>
+ <error line="559" column="66" severity="error" message="No space after opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis"/>
+ <error line="559" column="66" severity="error" message="Expected 1 space after IF keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="559" column="69" severity="error" message="Expected 1 space before &quot;!&quot;; 0 found" source="WordPress.WhiteSpace.OperatorSpacing.NoSpaceBefore"/>
+ <error line="559" column="97" severity="error" message="No space before closing parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis"/>
+ <error line="586" column="53" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="587" column="99" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="589" column="67" severity="warning" message="Equals sign not aligned with surrounding assignments; expected 6 spaces but found 1 space" source="Generic.Formatting.MultipleStatementAlignment.NotSameWarning"/>
+ <error line="589" column="91" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="589" column="172" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="592" column="53" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="594" column="53" severity="error" message="Line indented incorrectly; expected 14 tabs, found 13" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="598" column="61" severity="warning" message="Usage of ELSE IF is discouraged; use ELSEIF instead" source="PSR2.ControlStructures.ElseIfDeclaration.NotAllowed"/>
+ <error line="598" column="66" severity="error" message="Space after opening control structure is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterStructureOpen"/>
+ <error line="598" column="66" severity="error" message="No space before opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeOpenParenthesis"/>
+ <error line="598" column="66" severity="error" message="No space after opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis"/>
+ <error line="598" column="66" severity="error" message="Expected 1 space after IF keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="598" column="69" severity="error" message="Expected 1 space before &quot;!&quot;; 0 found" source="WordPress.WhiteSpace.OperatorSpacing.NoSpaceBefore"/>
+ <error line="598" column="97" severity="error" message="No space before closing parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis"/>
+ <error line="632" column="53" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="633" column="95" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="635" column="67" severity="warning" message="Equals sign not aligned with surrounding assignments; expected 6 spaces but found 1 space" source="Generic.Formatting.MultipleStatementAlignment.NotSameWarning"/>
+ <error line="635" column="91" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="635" column="172" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="638" column="53" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="640" column="53" severity="error" message="Line indented incorrectly; expected 14 tabs, found 13" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="644" column="61" severity="warning" message="Usage of ELSE IF is discouraged; use ELSEIF instead" source="PSR2.ControlStructures.ElseIfDeclaration.NotAllowed"/>
+ <error line="644" column="66" severity="error" message="Space after opening control structure is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterStructureOpen"/>
+ <error line="644" column="66" severity="error" message="No space before opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeOpenParenthesis"/>
+ <error line="644" column="66" severity="error" message="No space after opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis"/>
+ <error line="644" column="66" severity="error" message="Expected 1 space after IF keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="644" column="69" severity="error" message="Expected 1 space before &quot;!&quot;; 0 found" source="WordPress.WhiteSpace.OperatorSpacing.NoSpaceBefore"/>
+ <error line="644" column="97" severity="error" message="No space before closing parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis"/>
+ <error line="671" column="53" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="672" column="103" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="674" column="67" severity="warning" message="Equals sign not aligned with surrounding assignments; expected 6 spaces but found 1 space" source="Generic.Formatting.MultipleStatementAlignment.NotSameWarning"/>
+ <error line="674" column="91" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="674" column="172" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="677" column="53" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="679" column="53" severity="error" message="Line indented incorrectly; expected 14 tabs, found 13" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="683" column="61" severity="warning" message="Usage of ELSE IF is discouraged; use ELSEIF instead" source="PSR2.ControlStructures.ElseIfDeclaration.NotAllowed"/>
+ <error line="683" column="66" severity="error" message="Space after opening control structure is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterStructureOpen"/>
+ <error line="683" column="66" severity="error" message="No space before opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeOpenParenthesis"/>
+ <error line="683" column="66" severity="error" message="No space after opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis"/>
+ <error line="683" column="66" severity="error" message="Expected 1 space after IF keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="683" column="69" severity="error" message="Expected 1 space before &quot;!&quot;; 0 found" source="WordPress.WhiteSpace.OperatorSpacing.NoSpaceBefore"/>
+ <error line="683" column="97" severity="error" message="No space before closing parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis"/>
+ <error line="716" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="721" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="741" column="50" severity="warning" message="Found unknown capability &quot;edit_wpsyncsheets_wpforms_lite_main_settings&quot; in function call to current_user_can(). Please check the spelling of the capability. If this is a custom capability, please verify the capability is registered with WordPress via a call to WP_Role(s)-&gt;add_cap().&#13;&#10;Custom capabilities can be made known to this sniff by setting the &quot;custom_capabilities&quot; property in the PHPCS ruleset." source="WordPress.WP.Capabilities.Unknown"/>
+ <error line="894" column="64" severity="error" message="Expected 1 space before closing PHP tag; 2 found" source="Squiz.PHP.EmbeddedPhp.SpacingBeforeClose"/>
+ <error line="894" column="75" severity="error" message="All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found 'WPSSLWP_BUY_PRO_VERSION_URL'." source="WordPress.Security.EscapeOutput.OutputNotEscaped"/>
+ <error line="1113" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="1159" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="1174" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="1179" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="1203" column="64" severity="error" message="Expected 1 space before closing PHP tag; 2 found" source="Squiz.PHP.EmbeddedPhp.SpacingBeforeClose"/>
+ <error line="1203" column="75" severity="error" message="All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found 'WPSSLWP_BUY_PRO_VERSION_URL'." source="WordPress.Security.EscapeOutput.OutputNotEscaped"/>
+ <error line="1204" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="1205" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="1207" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="1208" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="1222" column="6" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="1289" column="5" severity="error" message="Expected 5 spaces before asterisk; 4 found" source="Squiz.Commenting.DocCommentAlignment.SpaceBeforeStar"/>
+ <error line="1292" column="9" severity="error" message="No space after opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis"/>
+ <error line="1292" column="13" severity="error" message="Expected 1 space before &quot;!&quot;; 0 found" source="WordPress.WhiteSpace.OperatorSpacing.NoSpaceBefore"/>
+ <error line="1292" column="13" severity="error" message="Expected 1 space after &quot;!&quot;; 0 found" source="WordPress.WhiteSpace.OperatorSpacing.NoSpaceAfter"/>
+ <error line="1292" column="14" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1292" column="48" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="1292" column="49" severity="error" message="No space before closing parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis"/>
+ <error line="1293" column="13" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1293" column="52" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="1296" column="24" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1296" column="30" severity="error" message="Processing form data without nonce verification." source="WordPress.Security.NonceVerification.Missing"/>
+ <error line="1296" column="51" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="1296" column="55" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1296" column="75" severity="error" message="Processing form data without nonce verification." source="WordPress.Security.NonceVerification.Missing"/>
+ <error line="1296" column="75" severity="error" message="$_POST['plugin_slug'] not unslashed before sanitization. Use wp_unslash() or similar" source="WordPress.Security.ValidatedSanitizedInput.MissingUnslash"/>
+ <error line="1296" column="96" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="1298" column="14" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1298" column="32" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="1299" column="13" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1299" column="54" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="1308" column="9" severity="error" message="Space after opening control structure is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterStructureOpen"/>
+ <error line="1308" column="9" severity="error" message="No space before opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeOpenParenthesis"/>
+ <error line="1308" column="9" severity="error" message="No space after opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis"/>
+ <error line="1308" column="9" severity="error" message="Expected 1 space after IF keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="1308" column="11" severity="error" message="Opening brace should be on the same line as the declaration" source="WordPress.WhiteSpace.ControlStructureSpacing.OpenBraceNotSameLine"/>
+ <error line="1308" column="12" severity="error" message="Processing form data without nonce verification." source="WordPress.Security.NonceVerification.Missing"/>
+ <error line="1308" column="12" severity="error" message="Detected usage of a possibly undefined superglobal array index: $_POST['plugin_active']. Check that the array index exists before using it." source="WordPress.Security.ValidatedSanitizedInput.InputNotValidated"/>
+ <error line="1308" column="36" severity="warning" message="Loose comparisons are not allowed. Expected: &quot;!==&quot;; Found: &quot;!=&quot;" source="Universal.Operators.StrictComparisons.LooseNotEqual"/>
+ <error line="1308" column="36" severity="error" message="Use Yoda Condition checks, you must." source="WordPress.PHP.YodaConditions.NotYoda"/>
+ <error line="1308" column="43" severity="error" message="No space before closing parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis"/>
+ <error line="1308" column="43" severity="error" message="Expected 1 space after closing parenthesis; found newline" source="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis"/>
+ <error line="1310" column="29" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1310" column="72" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="1311" column="21" severity="warning" message="Equals sign not aligned with surrounding assignments; expected 3 spaces but found 1 space" source="Generic.Formatting.MultipleStatementAlignment.NotSameWarning"/>
+ <error line="1311" column="34" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1311" column="115" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="1312" column="1" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="1313" column="13" severity="error" message="No space after opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis"/>
+ <error line="1313" column="17" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1313" column="36" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="1313" column="37" severity="error" message="No space before closing parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis"/>
+ <error line="1314" column="17" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1314" column="97" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="1318" column="20" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1318" column="49" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="1319" column="9" severity="error" message="No space after opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis"/>
+ <error line="1319" column="13" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1319" column="27" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="1319" column="28" severity="error" message="No space before closing parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis"/>
+ <error line="1320" column="13" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1320" column="66" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="1323" column="9" severity="error" message="Inline comments must end in full-stops, exclamation marks, or question marks" source="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+ <error line="1324" column="24" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1324" column="36" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="1326" column="23" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1326" column="70" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="1328" column="9" severity="error" message="No space after opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis"/>
+ <error line="1328" column="13" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1328" column="36" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="1328" column="37" severity="error" message="No space before closing parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis"/>
+ <error line="1329" column="13" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1329" column="88" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="1332" column="9" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1332" column="76" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+</file>
+<file name="includes\class-wpsslwp-service.php">
+ <error line="15" column="1" severity="error" message="Line indented incorrectly; expected 1 tabs, found 0" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="15" column="1" severity="error" message="Missing doc comment for class WPSSLWP_Service" source="Squiz.Commenting.ClassComment.Missing"/>
+ <error line="16" column="5" severity="error" message="Line indented incorrectly; expected at least 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="21" column="5" severity="error" message="Line indented incorrectly; expected at least 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="22" column="5" severity="error" message="Line indented incorrectly; expected at least 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="27" column="5" severity="error" message="Line indented incorrectly; expected at least 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="28" column="5" severity="error" message="Line indented incorrectly; expected at least 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="33" column="5" severity="error" message="Line indented incorrectly; expected at least 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="34" column="5" severity="error" message="Line indented incorrectly; expected at least 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="39" column="5" severity="error" message="Line indented incorrectly; expected at least 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="40" column="5" severity="error" message="Line indented incorrectly; expected at least 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="45" column="5" severity="error" message="Line indented incorrectly; expected at least 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="46" column="5" severity="error" message="Line indented incorrectly; expected at least 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="51" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="52" column="5" severity="error" message="Line indented incorrectly; expected at least 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="57" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="58" column="5" severity="error" message="Line indented incorrectly; expected at least 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="63" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="64" column="5" severity="error" message="Line indented incorrectly; expected at least 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="69" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="70" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="71" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="72" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="73" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="74" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="75" column="5" severity="error" message="Line indented incorrectly; expected at least 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="80" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="81" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="82" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="83" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="84" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="85" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="86" column="5" severity="error" message="Line indented incorrectly; expected at least 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="91" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="92" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="93" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="94" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="95" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="96" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="97" column="5" severity="error" message="Line indented incorrectly; expected at least 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="104" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="105" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="105" column="1" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="105" column="1" severity="error" message="Functions must not contain multiple empty lines in a row; found 2 empty lines" source="Squiz.WhiteSpace.SuperfluousWhitespace.EmptyLines"/>
+ <error line="106" column="1" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="107" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="108" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="109" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="110" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="111" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="112" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="113" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="114" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="115" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="115" column="41" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="115" column="93" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="116" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="116" column="39" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="116" column="75" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="117" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="118" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="119" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="120" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="121" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="123" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="124" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="125" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="126" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="127" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="128" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="131" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="132" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="133" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="134" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="135" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="136" column="1" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="137" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="138" column="1" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="138" column="1" severity="error" message="Functions must not contain multiple empty lines in a row; found 2 empty lines" source="Squiz.WhiteSpace.SuperfluousWhitespace.EmptyLines"/>
+ <error line="140" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="141" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="143" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="144" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="146" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="147" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="148" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="149" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="151" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="152" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="153" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="154" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="155" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="156" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="157" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="158" column="21" severity="error" message="Line indented incorrectly; expected at least 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="159" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="160" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="161" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="162" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="163" column="21" severity="error" message="Line indented incorrectly; expected at least 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="165" column="21" severity="error" message="Line indented incorrectly; expected 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="166" column="25" severity="error" message="Line indented incorrectly; expected at least 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="167" column="25" severity="error" message="Line indented incorrectly; expected at least 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="168" column="25" severity="error" message="Line indented incorrectly; expected at least 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="169" column="21" severity="error" message="Line indented incorrectly; expected 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="169" column="23" severity="error" message="If control structure block found as the only statement within an &quot;else&quot; block. Use elseif instead." source="Universal.ControlStructures.DisallowLonelyIf.Found"/>
+ <error line="170" column="25" severity="error" message="Line indented incorrectly; expected 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="171" column="29" severity="error" message="Line indented incorrectly; expected at least 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="172" column="25" severity="error" message="Line indented incorrectly; expected 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="173" column="29" severity="error" message="Line indented incorrectly; expected at least 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="175" column="29" severity="error" message="Line indented incorrectly; expected 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="176" column="33" severity="error" message="Line indented incorrectly; expected at least 9 tabs, found 8" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="177" column="33" severity="error" message="Line indented incorrectly; expected at least 9 tabs, found 8" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="179" column="33" severity="error" message="Line indented incorrectly; expected at least 9 tabs, found 8" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="180" column="29" severity="error" message="Line indented incorrectly; expected 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="182" column="33" severity="error" message="Line indented incorrectly; expected at least 9 tabs, found 8" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="183" column="29" severity="error" message="Line indented incorrectly; expected 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="184" column="25" severity="error" message="Line indented incorrectly; expected 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="185" column="29" severity="error" message="Line indented incorrectly; expected at least 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="186" column="25" severity="error" message="Line indented incorrectly; expected 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="187" column="21" severity="error" message="Line indented incorrectly; expected 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="188" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="189" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="191" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="192" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="194" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="194" column="127" severity="warning" message="Loose comparisons are not allowed. Expected: &quot;===&quot;; Found: &quot;==&quot;" source="Universal.Operators.StrictComparisons.LooseEqual"/>
+ <error line="194" column="127" severity="error" message="Use Yoda Condition checks, you must." source="WordPress.PHP.YodaConditions.NotYoda"/>
+ <error line="195" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="196" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="197" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="197" column="127" severity="warning" message="Loose comparisons are not allowed. Expected: &quot;===&quot;; Found: &quot;==&quot;" source="Universal.Operators.StrictComparisons.LooseEqual"/>
+ <error line="197" column="127" severity="error" message="Use Yoda Condition checks, you must." source="WordPress.PHP.YodaConditions.NotYoda"/>
+ <error line="198" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="199" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="200" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="201" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="202" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="203" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="205" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="207" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="208" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="209" column="21" severity="error" message="Line indented incorrectly; expected 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="210" column="25" severity="error" message="Line indented incorrectly; expected at least 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="211" column="21" severity="error" message="Line indented incorrectly; expected 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="212" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="213" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="214" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="215" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="216" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="217" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="219" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="220" column="21" severity="error" message="Line indented incorrectly; expected at least 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="221" column="21" severity="error" message="Line indented incorrectly; expected 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="222" column="25" severity="error" message="Line indented incorrectly; expected at least 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="223" column="25" severity="error" message="Line indented incorrectly; expected at least 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="224" column="25" severity="error" message="Line indented incorrectly; expected at least 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="225" column="25" severity="error" message="Line indented incorrectly; expected at least 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="226" column="21" severity="error" message="Line indented incorrectly; expected 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="227" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="228" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="230" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="231" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="233" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="234" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="235" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="237" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="238" column="21" severity="error" message="Line indented incorrectly; expected at least 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="239" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="240" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="241" column="21" severity="error" message="Line indented incorrectly; expected at least 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="242" column="21" severity="error" message="Line indented incorrectly; expected at least 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="243" column="21" severity="error" message="Line indented incorrectly; expected 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="244" column="25" severity="error" message="Line indented incorrectly; expected at least 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="245" column="25" severity="error" message="Line indented incorrectly; expected at least 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="246" column="25" severity="error" message="Line indented incorrectly; expected 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="247" column="29" severity="error" message="Line indented incorrectly; expected at least 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="248" column="29" severity="error" message="Line indented incorrectly; expected at least 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="249" column="29" severity="error" message="Line indented incorrectly; expected at least 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="250" column="29" severity="error" message="Line indented incorrectly; expected at least 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="251" column="29" severity="error" message="Line indented incorrectly; expected at least 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="252" column="25" severity="error" message="Line indented incorrectly; expected 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="253" column="21" severity="error" message="Line indented incorrectly; expected 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="254" column="21" severity="error" message="Line indented incorrectly; expected 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="255" column="25" severity="error" message="Line indented incorrectly; expected 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="256" column="29" severity="error" message="Line indented incorrectly; expected at least 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="257" column="29" severity="error" message="Line indented incorrectly; expected at least 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="258" column="29" severity="error" message="Line indented incorrectly; expected at least 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="259" column="29" severity="error" message="Line indented incorrectly; expected at least 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="260" column="25" severity="error" message="Line indented incorrectly; expected 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="261" column="21" severity="error" message="Line indented incorrectly; expected 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="262" column="25" severity="error" message="Line indented incorrectly; expected at least 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="263" column="21" severity="error" message="Line indented incorrectly; expected 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="264" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="265" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="267" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="268" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="269" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="270" column="21" severity="error" message="Line indented incorrectly; expected at least 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="272" column="21" severity="error" message="Line indented incorrectly; expected 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="273" column="25" severity="error" message="Line indented incorrectly; expected at least 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="275" column="25" severity="error" message="Line indented incorrectly; expected at least 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="277" column="25" severity="error" message="Line indented incorrectly; expected at least 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="278" column="25" severity="error" message="Line indented incorrectly; expected at least 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="280" column="25" severity="error" message="Line indented incorrectly; expected 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="281" column="29" severity="error" message="Line indented incorrectly; expected at least 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="282" column="29" severity="error" message="Line indented incorrectly; expected at least 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="283" column="29" severity="error" message="Line indented incorrectly; expected at least 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="284" column="29" severity="error" message="Line indented incorrectly; expected at least 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="285" column="25" severity="error" message="Line indented incorrectly; expected 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="286" column="21" severity="error" message="Line indented incorrectly; expected 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="287" column="25" severity="error" message="Line indented incorrectly; expected at least 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="288" column="25" severity="error" message="Line indented incorrectly; expected 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="289" column="29" severity="error" message="Line indented incorrectly; expected at least 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="290" column="29" severity="error" message="Line indented incorrectly; expected at least 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="291" column="29" severity="error" message="Line indented incorrectly; expected at least 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="292" column="29" severity="error" message="Line indented incorrectly; expected at least 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="294" column="29" severity="error" message="Line indented incorrectly; expected at least 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="295" column="25" severity="error" message="Line indented incorrectly; expected 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="296" column="21" severity="error" message="Line indented incorrectly; expected 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="297" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="299" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="300" column="21" severity="error" message="Line indented incorrectly; expected at least 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="301" column="21" severity="error" message="Line indented incorrectly; expected at least 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="302" column="21" severity="error" message="Line indented incorrectly; expected at least 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="303" column="21" severity="error" message="Line indented incorrectly; expected at least 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="304" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="305" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="306" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="307" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="308" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="309" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="310" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="311" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="312" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="313" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="314" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="315" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="317" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="319" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="320" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="321" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="322" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="323" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="324" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="325" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="326" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="327" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="328" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="329" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="330" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="331" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="332" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="333" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="334" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="335" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="336" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="337" column="21" severity="error" message="Line indented incorrectly; expected at least 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="338" column="21" severity="error" message="Line indented incorrectly; expected at least 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="339" column="21" severity="error" message="Line indented incorrectly; expected at least 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="340" column="21" severity="error" message="Line indented incorrectly; expected at least 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="341" column="21" severity="error" message="Line indented incorrectly; expected at least 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="342" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="343" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="344" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="345" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="346" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="347" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="348" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="349" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="350" column="5" severity="error" message="Line indented incorrectly; expected at least 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="360" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="361" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="362" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="363" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="364" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="365" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="366" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="367" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="368" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="369" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="370" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="371" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="372" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="373" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="374" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="375" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="377" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="378" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="379" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="380" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="381" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="382" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="383" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="384" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="385" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="386" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="387" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="388" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="390" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="391" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="392" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="394" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="395" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="396" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="397" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="398" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="399" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="400" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="401" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="402" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="403" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="404" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="405" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="406" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="408" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="409" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="410" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="411" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="412" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="413" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="414" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="415" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="416" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="417" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="418" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="419" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="420" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="421" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="422" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="423" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="424" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="425" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="426" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="427" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="428" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="429" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="430" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="431" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="432" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="433" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="436" column="13" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="437" column="13" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="438" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="439" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="440" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="441" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="442" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="443" column="13" severity="error" message="Expected 1 space after FUNCTION keyword; 0 found" source="Squiz.Functions.MultiLineFunctionDeclaration.SpaceAfterFunction"/>
+ <error line="451" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="453" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="454" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="455" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="456" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="457" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="458" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="459" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="461" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="462" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="463" column="5" severity="error" message="Line indented incorrectly; expected at least 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="468" column="1" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="468" column="1" severity="error" message="There must be no blank lines between the function comment and the declaration" source="Squiz.Commenting.FunctionComment.SpacingAfter"/>
+ <error line="469" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="470" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="470" column="34" severity="warning" message="Found unknown capability &quot;edit_wpsyncsheets_wpforms_lite_form_settings&quot; in function call to current_user_can(). Please check the spelling of the capability. If this is a custom capability, please verify the capability is registered with WordPress via a call to WP_Role(s)-&gt;add_cap().&#13;&#10;Custom capabilities can be made known to this sniff by setting the &quot;custom_capabilities&quot; property in the PHPCS ruleset." source="WordPress.WP.Capabilities.Unknown"/>
+ <error line="497" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="498" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="499" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="501" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="502" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="503" column="21" severity="error" message="Line indented incorrectly; expected at least 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="504" column="21" severity="error" message="Line indented incorrectly; expected 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="505" column="25" severity="error" message="Line indented incorrectly; expected at least 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="507" column="21" severity="error" message="Line indented incorrectly; expected 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="508" column="25" severity="error" message="Line indented incorrectly; expected at least 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="509" column="21" severity="error" message="Line indented incorrectly; expected 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="510" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="511" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="512" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="513" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="514" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="515" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="516" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="517" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="518" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="519" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="520" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="521" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="548" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="549" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="550" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="551" column="1" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="553" column="6" severity="error" message="Expected 9 spaces before asterisk; 5 found" source="Squiz.Commenting.DocCommentAlignment.SpaceBeforeStar"/>
+ <error line="554" column="6" severity="error" message="Expected 9 spaces before asterisk; 5 found" source="Squiz.Commenting.DocCommentAlignment.SpaceBeforeStar"/>
+ <error line="555" column="6" severity="error" message="Expected 9 spaces before asterisk; 5 found" source="Squiz.Commenting.DocCommentAlignment.SpaceBeforeStar"/>
+ <error line="556" column="6" severity="error" message="Expected 9 spaces before asterisk; 5 found" source="Squiz.Commenting.DocCommentAlignment.SpaceBeforeStar"/>
+ <error line="557" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="559" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="560" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="561" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="562" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="564" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="565" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="566" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="567" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="568" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="569" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="570" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="571" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="572" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="573" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="574" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="575" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="576" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="578" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="580" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="581" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="583" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="584" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="585" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="586" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="587" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="588" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="589" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="591" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="592" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="594" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="595" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="596" column="21" severity="error" message="Line indented incorrectly; expected at least 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="598" column="21" severity="error" message="Line indented incorrectly; expected at least 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="599" column="21" severity="error" message="Line indented incorrectly; expected 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="600" column="25" severity="error" message="Line indented incorrectly; expected 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="601" column="29" severity="error" message="Line indented incorrectly; expected at least 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="602" column="25" severity="error" message="Line indented incorrectly; expected 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="603" column="21" severity="error" message="Line indented incorrectly; expected 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="604" column="25" severity="error" message="Line indented incorrectly; expected at least 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="606" column="25" severity="error" message="Line indented incorrectly; expected 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="608" column="29" severity="error" message="Line indented incorrectly; expected at least 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="609" column="29" severity="error" message="Line indented incorrectly; expected at least 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="610" column="25" severity="error" message="Line indented incorrectly; expected 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="611" column="21" severity="error" message="Line indented incorrectly; expected 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="612" column="21" severity="error" message="Line indented incorrectly; expected 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="613" column="25" severity="error" message="Line indented incorrectly; expected at least 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="614" column="21" severity="error" message="Line indented incorrectly; expected 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="615" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="616" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="617" column="21" severity="error" message="Line indented incorrectly; expected at least 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="618" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="619" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="620" column="21" severity="error" message="Line indented incorrectly; expected at least 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="621" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="622" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="623" column="21" severity="error" message="Line indented incorrectly; expected at least 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="624" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="625" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="626" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="628" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="629" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="630" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="631" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="632" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="633" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="634" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="636" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="637" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="638" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="639" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="640" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="641" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="642" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="643" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="644" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="645" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="646" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="647" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="648" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="649" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="650" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="651" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="652" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="653" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="654" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="655" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="656" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="657" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="658" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="659" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="670" column="25" severity="error" message="Opening PHP tag must be on a line by itself" source="Squiz.PHP.EmbeddedPhp.ContentAfterOpen"/>
+ <error line="680" column="28" severity="error" message="Closing PHP tag must be on a line by itself" source="Squiz.PHP.EmbeddedPhp.ContentBeforeEnd"/>
+ <error line="707" column="47" severity="warning" message="Array double arrow not aligned correctly; expected 1 space(s) between &quot;'parent'&quot; and double arrow, but found 6." source="WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned"/>
+ <error line="710" column="25" severity="error" message="Line indented incorrectly; expected 5 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="727" column="25" severity="error" message="Closing PHP tag must be on a line by itself" source="Squiz.PHP.EmbeddedPhp.ContentAfterEnd"/>
+ <error line="738" column="42" severity="warning" message="Array double arrow not aligned correctly; expected 6 space(s) between &quot;'parent'&quot; and double arrow, but found 1." source="WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned"/>
+ <error line="739" column="42" severity="warning" message="Array double arrow not aligned correctly; expected 7 space(s) between &quot;'class'&quot; and double arrow, but found 2." source="WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned"/>
+ <error line="742" column="27" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="746" column="21" severity="error" message="Line indented incorrectly; expected at least 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="753" column="38" severity="warning" message="Array double arrow not aligned correctly; expected 6 space(s) between &quot;'parent'&quot; and double arrow, but found 1." source="WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned"/>
+ <error line="754" column="38" severity="warning" message="Array double arrow not aligned correctly; expected 7 space(s) between &quot;'class'&quot; and double arrow, but found 2." source="WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned"/>
+ <error line="758" column="21" severity="error" message="Closing PHP tag must be on a line by itself" source="Squiz.PHP.EmbeddedPhp.ContentAfterEnd"/>
+ <error line="778" column="33" severity="error" message="Inline comments must end in full-stops, exclamation marks, or question marks" source="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+ <error line="789" column="37" severity="error" message="Space after opening control structure is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterStructureOpen"/>
+ <error line="789" column="37" severity="error" message="No space before opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeOpenParenthesis"/>
+ <error line="789" column="37" severity="error" message="No space after opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis"/>
+ <error line="789" column="37" severity="error" message="Expected 1 space after IF keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="789" column="40" severity="error" message="Expected 1 space after open parenthesis; 0 found" source="Generic.WhiteSpace.ArbitraryParenthesesSpacing.SpaceAfterOpen"/>
+ <error line="789" column="53" severity="warning" message="Loose comparisons are not allowed. Expected: &quot;===&quot;; Found: &quot;==&quot;" source="Universal.Operators.StrictComparisons.LooseEqual"/>
+ <error line="789" column="53" severity="error" message="Use Yoda Condition checks, you must." source="WordPress.PHP.YodaConditions.NotYoda"/>
+ <error line="789" column="73" severity="error" message="Expected 1 space before close parenthesis; 0 found" source="Generic.WhiteSpace.ArbitraryParenthesesSpacing.SpaceBeforeClose"/>
+ <error line="789" column="78" severity="error" message="Expected 1 space after open parenthesis; 0 found" source="Generic.WhiteSpace.ArbitraryParenthesesSpacing.SpaceAfterOpen"/>
+ <error line="789" column="91" severity="warning" message="Loose comparisons are not allowed. Expected: &quot;===&quot;; Found: &quot;==&quot;" source="Universal.Operators.StrictComparisons.LooseEqual"/>
+ <error line="789" column="91" severity="error" message="Use Yoda Condition checks, you must." source="WordPress.PHP.YodaConditions.NotYoda"/>
+ <error line="789" column="111" severity="error" message="Expected 1 space before close parenthesis; 0 found" source="Generic.WhiteSpace.ArbitraryParenthesesSpacing.SpaceBeforeClose"/>
+ <error line="789" column="112" severity="error" message="No space before closing parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis"/>
+ <error line="790" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="791" column="37" severity="error" message="Expected 1 space after closing brace; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseBrace"/>
+ <error line="794" column="33" severity="error" message="Line indented incorrectly; expected 9 tabs, found 8" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="796" column="37" severity="error" message="Opening PHP tag must be on a line by itself" source="Squiz.PHP.EmbeddedPhp.ContentAfterOpen"/>
+ <error line="808" column="40" severity="error" message="Closing PHP tag must be on a line by itself" source="Squiz.PHP.EmbeddedPhp.ContentBeforeEnd"/>
+ <error line="809" column="85" severity="error" message="All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$header_key'." source="WordPress.Security.EscapeOutput.OutputNotEscaped"/>
+ <error line="811" column="83" severity="error" message="All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$header'." source="WordPress.Security.EscapeOutput.OutputNotEscaped"/>
+ <error line="861" column="25" severity="warning" message="This comment is 58% valid code; is this commented out code?" source="Squiz.PHP.CommentedOutCode.Found"/>
+ <error line="861" column="25" severity="error" message="Block comment text must start on a new line" source="Squiz.Commenting.BlockComment.NoNewLine"/>
+ <error line="887" column="25" severity="error" message="Line indented incorrectly; expected 4 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="900" column="21" severity="error" message="Line indented incorrectly; expected at least 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="926" column="46" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="926" column="83" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="945" column="5" severity="error" message="Opening PHP tag must be on a line by itself" source="Squiz.PHP.EmbeddedPhp.ContentAfterOpen"/>
+ <error line="946" column="5" severity="error" message="Line indented incorrectly; expected at least 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="949" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="951" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="951" column="34" severity="warning" message="Found unknown capability &quot;edit_wpsyncsheets_wpforms_lite_main_settings&quot; in function call to current_user_can(). Please check the spelling of the capability. If this is a custom capability, please verify the capability is registered with WordPress via a call to WP_Role(s)-&gt;add_cap().&#13;&#10;Custom capabilities can be made known to this sniff by setting the &quot;custom_capabilities&quot; property in the PHPCS ruleset." source="WordPress.WP.Capabilities.Unknown"/>
+ <error line="952" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="953" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="954" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="955" column="1" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="956" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="957" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="958" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="959" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="961" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="962" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="963" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="964" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="965" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="966" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="967" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="968" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="969" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="970" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="971" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="972" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="973" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="974" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="975" column="5" severity="error" message="Line indented incorrectly; expected at least 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="981" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="982" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="984" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="985" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="986" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="987" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="988" column="5" severity="error" message="Line indented incorrectly; expected at least 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="997" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="999" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1000" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1001" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1002" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1003" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1004" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1005" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1006" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1007" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1008" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1009" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1010" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1011" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1012" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1013" column="1" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="1014" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1015" column="21" severity="error" message="Line indented incorrectly; expected 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1016" column="25" severity="error" message="Line indented incorrectly; expected at least 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1017" column="21" severity="error" message="Line indented incorrectly; expected 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1018" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1019" column="21" severity="error" message="Line indented incorrectly; expected at least 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1020" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1021" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1022" column="21" severity="error" message="Line indented incorrectly; expected at least 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1023" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1024" column="21" severity="error" message="Line indented incorrectly; expected at least 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1025" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1026" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1027" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1029" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1030" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1031" column="5" severity="error" message="Line indented incorrectly; expected at least 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1038" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1039" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1040" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1041" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1042" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1043" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1044" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1045" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1046" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1047" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1048" column="5" severity="error" message="Line indented incorrectly; expected at least 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1053" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1055" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1056" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1057" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1058" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1059" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1061" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1062" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1063" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1064" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1065" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1066" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1067" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1068" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1069" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1070" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1072" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1073" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1074" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1076" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1077" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1078" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1079" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1081" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1082" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1083" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1084" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1085" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1086" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1087" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1088" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1089" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1090" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1091" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1092" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1093" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1094" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1095" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1096" column="5" severity="error" message="Line indented incorrectly; expected at least 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1103" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1104" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1105" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1106" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1107" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1108" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1109" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1110" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1111" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1112" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1113" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1114" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1115" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1116" column="5" severity="error" message="Line indented incorrectly; expected at least 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1124" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1125" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1126" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1127" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1128" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1129" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1130" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1131" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1132" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1133" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1134" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1134" column="23" severity="warning" message="Stand-alone post-increment statement found. Use pre-increment instead: ++$count." source="Universal.Operators.DisallowStandalonePostIncrementDecrement.PostIncrementFound"/>
+ <error line="1135" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1136" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1137" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1138" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1139" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1140" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1141" column="5" severity="error" message="Line indented incorrectly; expected at least 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1150" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1151" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1153" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1154" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1157" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1158" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1159" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1160" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1161" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1162" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1163" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1165" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1166" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1167" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1168" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1169" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1170" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1172" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1174" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1175" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1176" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1177" column="21" severity="error" message="Line indented incorrectly; expected at least 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1178" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1179" column="21" severity="error" message="Line indented incorrectly; expected at least 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1180" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1181" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1182" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1183" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1187" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1188" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1189" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1191" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1192" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1193" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1194" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1195" column="21" severity="error" message="Line indented incorrectly; expected at least 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1196" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1196" column="19" severity="error" message="If control structure block found as the only statement within an &quot;else&quot; block. Use elseif instead." source="Universal.ControlStructures.DisallowLonelyIf.Found"/>
+ <error line="1197" column="21" severity="error" message="Line indented incorrectly; expected 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1198" column="25" severity="error" message="Line indented incorrectly; expected at least 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1199" column="21" severity="error" message="Line indented incorrectly; expected 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1200" column="25" severity="error" message="Line indented incorrectly; expected at least 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1201" column="21" severity="error" message="Line indented incorrectly; expected 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1202" column="25" severity="error" message="Line indented incorrectly; expected at least 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1203" column="25" severity="error" message="Line indented incorrectly; expected 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1204" column="29" severity="error" message="Line indented incorrectly; expected 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1205" column="33" severity="error" message="Line indented incorrectly; expected at least 9 tabs, found 8" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1206" column="29" severity="error" message="Line indented incorrectly; expected 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1207" column="33" severity="error" message="Line indented incorrectly; expected at least 9 tabs, found 8" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1208" column="33" severity="error" message="Line indented incorrectly; expected at least 9 tabs, found 8" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1209" column="33" severity="error" message="Line indented incorrectly; expected at least 9 tabs, found 8" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1210" column="33" severity="error" message="Line indented incorrectly; expected at least 9 tabs, found 8" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1211" column="29" severity="error" message="Line indented incorrectly; expected 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1212" column="25" severity="error" message="Line indented incorrectly; expected 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1213" column="29" severity="error" message="Line indented incorrectly; expected at least 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1214" column="25" severity="error" message="Line indented incorrectly; expected 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1215" column="21" severity="error" message="Line indented incorrectly; expected 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1216" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1217" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1218" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1219" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1220" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1221" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1222" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1223" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1224" column="5" severity="error" message="Line indented incorrectly; expected at least 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1232" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1233" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1234" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1235" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1236" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1237" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1238" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1239" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1241" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1242" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1243" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1244" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1245" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1247" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1248" column="21" severity="error" message="Line indented incorrectly; expected at least 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1250" column="21" severity="error" message="Line indented incorrectly; expected 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1251" column="25" severity="error" message="Line indented incorrectly; expected at least 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1252" column="25" severity="error" message="Line indented incorrectly; expected at least 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1253" column="21" severity="error" message="Line indented incorrectly; expected 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1254" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1254" column="19" severity="error" message="If control structure block found as the only statement within an &quot;else&quot; block. Use elseif instead." source="Universal.ControlStructures.DisallowLonelyIf.Found"/>
+ <error line="1255" column="21" severity="error" message="Line indented incorrectly; expected 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1256" column="25" severity="error" message="Line indented incorrectly; expected 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1257" column="29" severity="error" message="Line indented incorrectly; expected at least 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1258" column="29" severity="error" message="Line indented incorrectly; expected at least 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1259" column="25" severity="error" message="Line indented incorrectly; expected 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1260" column="21" severity="error" message="Line indented incorrectly; expected 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1261" column="25" severity="error" message="Line indented incorrectly; expected at least 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1262" column="25" severity="error" message="Line indented incorrectly; expected 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1263" column="29" severity="error" message="Line indented incorrectly; expected at least 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1264" column="29" severity="error" message="Line indented incorrectly; expected at least 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1265" column="29" severity="error" message="Line indented incorrectly; expected 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1266" column="33" severity="error" message="Line indented incorrectly; expected at least 9 tabs, found 8" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1267" column="29" severity="error" message="Line indented incorrectly; expected 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1268" column="29" severity="error" message="Line indented incorrectly; expected 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1269" column="33" severity="error" message="Line indented incorrectly; expected at least 9 tabs, found 8" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1270" column="33" severity="error" message="Line indented incorrectly; expected at least 9 tabs, found 8" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1271" column="29" severity="error" message="Line indented incorrectly; expected 8 tabs, found 7" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1272" column="25" severity="error" message="Line indented incorrectly; expected 7 tabs, found 6" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1273" column="21" severity="error" message="Line indented incorrectly; expected 6 tabs, found 5" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1274" column="17" severity="error" message="Line indented incorrectly; expected 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1275" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1276" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1277" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1278" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1279" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1280" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1281" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1283" column="5" severity="error" message="Line indented incorrectly; expected at least 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1287" column="8" severity="error" message="There must be exactly one blank line before the tags in a doc comment" source="Generic.Commenting.DocComment.SpacingBeforeTags"/>
+ <error line="1290" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1292" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1294" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1295" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1296" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1296" column="10" severity="error" message="Spaces must be used for mid-line alignment; tabs are not allowed" source="Universal.WhiteSpace.DisallowInlineTabs.NonIndentTabsUsed"/>
+ <error line="1296" column="10" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="1297" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1297" column="26" severity="warning" message="Loose comparisons are not allowed. Expected: &quot;===&quot;; Found: &quot;==&quot;" source="Universal.Operators.StrictComparisons.LooseEqual"/>
+ <error line="1297" column="26" severity="error" message="Use Yoda Condition checks, you must." source="WordPress.PHP.YodaConditions.NotYoda"/>
+ <error line="1298" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1299" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1300" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1301" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1301" column="9" severity="error" message="Space after opening control structure is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterStructureOpen"/>
+ <error line="1301" column="9" severity="error" message="No space before opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeOpenParenthesis"/>
+ <error line="1301" column="9" severity="error" message="No space after opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis"/>
+ <error line="1301" column="9" severity="error" message="Expected 1 space after IF keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="1301" column="40" severity="error" message="No space before closing parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis"/>
+ <error line="1302" column="13" severity="error" message="Line indented incorrectly; expected at least 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1303" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1304" column="1" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="1305" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1305" column="20" severity="warning" message="Equals sign not aligned with surrounding assignments; expected 1 space but found 2 spaces" source="Generic.Formatting.MultipleStatementAlignment.NotSameWarning"/>
+ <error line="1305" column="87" severity="error" message="Short array syntax is not allowed" source="Universal.Arrays.DisallowShortArraySyntax.Found"/>
+ <error line="1306" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1306" column="20" severity="warning" message="Equals sign not aligned with surrounding assignments; expected 4 spaces but found 5 spaces" source="Generic.Formatting.MultipleStatementAlignment.NotSameWarning"/>
+ <error line="1307" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1307" column="20" severity="warning" message="Equals sign not aligned with surrounding assignments; expected 4 spaces but found 5 spaces" source="Generic.Formatting.MultipleStatementAlignment.NotSameWarning"/>
+ <error line="1308" column="1" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="1309" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1311" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1314" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1315" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1316" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1317" column="17" severity="error" message="Line indented incorrectly; expected at least 5 tabs, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1318" column="13" severity="error" message="Line indented incorrectly; expected 4 tabs, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1318" column="14" severity="error" message="Spaces must be used for mid-line alignment; tabs are not allowed" source="Universal.WhiteSpace.DisallowInlineTabs.NonIndentTabsUsed"/>
+ <error line="1318" column="14" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="1319" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1320" column="1" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="1321" column="9" severity="error" message="Line indented incorrectly; expected 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1351" column="9" severity="error" message="Line indented incorrectly; expected at least 3 tabs, found 2" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="1352" column="5" severity="error" message="Line indented incorrectly; expected 2 tabs, found 1" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1353" column="1" severity="error" message="Line indented incorrectly; expected 1 tabs, found 0" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="1354" column="1" severity="error" message="Line indented incorrectly; expected at least 1 tabs, found 0" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+</file>
+<file name="src\class-wpsyncsheets-wpforms.php">
+ <error line="1" column="1" severity="error" message="End of line character is invalid; expected &quot;\n&quot; but found &quot;\r\n&quot;" source="Generic.Files.LineEndings.InvalidEOLChar"/>
+ <error line="9" column="1" severity="error" message="Namespace declarations using the curly brace syntax are not allowed." source="Universal.Namespaces.DisallowCurlyBraceSyntax.Forbidden"/>
+ <error line="90" column="5" severity="error" message="The closing brace for the class must go on the next line after the body" source="PSR2.Classes.ClassDeclaration.CloseBraceAfterBody"/>
+ <error line="93" column="1" severity="error" message="There should be only one namespace declaration per file. The first declaration was found on line 9" source="Universal.Namespaces.OneDeclarationPerFile.MultipleFound"/>
+ <error line="93" column="1" severity="error" message="Namespace declarations using the curly brace syntax are not allowed." source="Universal.Namespaces.DisallowCurlyBraceSyntax.Forbidden"/>
+ <error line="93" column="1" severity="error" message="Namespace declarations without a namespace name are not allowed." source="Universal.Namespaces.DisallowDeclarationWithoutName.Forbidden"/>
+ <error line="101" column="5" severity="error" message="A file should either contain function declarations or OO structure declarations, but not both. Found 1 function declaration(s) and 1 OO structure declaration(s). The first function declaration was found on line 101; the first OO declaration was found on line 16" source="Universal.Files.SeparateFunctionsFromOO.Mixed"/>
+</file>
+<file name="wpsyncsheets-lite-wpforms.php">
+ <error line="22" column="6" severity="error" message="Expected 1 space after &quot;!&quot;; 0 found" source="WordPress.WhiteSpace.OperatorSpacing.NoSpaceAfter"/>
+ <error line="22" column="7" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="22" column="41" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="23" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="23" column="5" severity="error" message="&quot;include_once&quot; is a statement not a function; no parentheses are required" source="PEAR.Files.IncludingFile.BracketsNotRequired"/>
+ <error line="23" column="5" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="23" column="58" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="39" column="44" severity="error" message="Use the __DIR__ constant instead of calling dirname(__FILE__) (PHP &gt;= 5.3)" source="Modernize.FunctionCalls.Dirname.FileConstant"/>
+ <error line="54" column="1" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="55" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="56" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="56" column="39" severity="error" message="Use the __DIR__ constant instead of calling dirname(__FILE__) (PHP &gt;= 5.3)" source="Modernize.FunctionCalls.Dirname.FileConstant"/>
+ <error line="57" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="58" column="1" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="59" column="1" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="91" column="1" severity="error" message="There must be no blank lines between the function comment and the declaration" source="Squiz.Commenting.FunctionComment.SpacingAfter"/>
+ <error line="120" column="1" severity="error" message="There must be no blank lines between the function comment and the declaration" source="Squiz.Commenting.FunctionComment.SpacingAfter"/>
+ <error line="130" column="22" severity="error" message="Use the __DIR__ constant instead of calling dirname(__FILE__) (PHP &gt;= 5.3)" source="Modernize.FunctionCalls.Dirname.FileConstant"/>
+ <error line="138" column="1" severity="error" message="There must be no blank lines between the function comment and the declaration" source="Squiz.Commenting.FunctionComment.SpacingAfter"/>
+ <error line="148" column="1" severity="error" message="Expected 1 newline at end of file; 0 found" source="PSR2.Files.EndFileNewline.NoneFound"/>
+</file>
+</checkstyle>
+
