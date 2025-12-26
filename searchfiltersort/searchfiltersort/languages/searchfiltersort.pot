@@ -1,0 +1,285 @@
+# Copyright (C) 2025 Creative Werk Designs
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: SearchFilterSort 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/searchfiltersort\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-12-10T11:32:48+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: searchfiltersort\n"
+
+#. Plugin Name of the plugin
+#: searchfiltersort.php
+#: includes/class-sflts-cpt.php:31
+#: includes/class-sflts-cpt.php:32
+#: includes/class-sflts-cpt.php:33
+msgid "SearchFilterSort"
+msgstr ""
+
+#. Description of the plugin
+#: searchfiltersort.php
+msgid "Powerful AJAX search, filtering, and sorting for posts, custom post types, and WooCommerce products. Fully customizable and easy to use."
+msgstr ""
+
+#. Author of the plugin
+#: searchfiltersort.php
+msgid "Creative Werk Designs"
+msgstr ""
+
+#. Author URI of the plugin
+#: searchfiltersort.php
+msgid "https://www.creativewerkdesigns.com/"
+msgstr ""
+
+#: includes/class-sflts-ajax.php:64
+msgid "Security check failed."
+msgstr ""
+
+#: includes/class-sflts-assets.php:85
+msgid "Copied!"
+msgstr ""
+
+#: includes/class-sflts-assets.php:138
+msgid "Loading..."
+msgstr ""
+
+#: includes/class-sflts-assets.php:139
+#: templates/frontend/results.php:106
+msgid "No results found."
+msgstr ""
+
+#: includes/class-sflts-assets.php:140
+#: templates/frontend/shortcode.php:81
+msgid "Load More"
+msgstr ""
+
+#: includes/class-sflts-assets.php:141
+#: templates/frontend/filters.php:84
+msgid "Reset All"
+msgstr ""
+
+#: includes/class-sflts-assets.php:142
+msgid "Previous"
+msgstr ""
+
+#: includes/class-sflts-assets.php:143
+msgid "Next"
+msgstr ""
+
+#: includes/class-sflts-helpers.php:117
+msgid "Load More Button"
+msgstr ""
+
+#: includes/class-sflts-helpers.php:118
+msgid "Numbered Pagination"
+msgstr ""
+
+#: includes/class-sflts-helpers.php:129
+#: templates/admin/settings-page.php:160
+msgid "Left"
+msgstr ""
+
+#: includes/class-sflts-helpers.php:130
+#: templates/admin/settings-page.php:162
+msgid "Right"
+msgstr ""
+
+#: includes/class-sflts-settings.php:64
+#: includes/class-sflts-settings.php:65
+#: searchfiltersort.php:58
+msgid "Settings"
+msgstr ""
+
+#: templates/admin/settings-page.php:32
+msgid "Upgrade to SearchFilterSort Pro to unlock this option."
+msgstr ""
+
+#: templates/admin/settings-page.php:36
+msgid "SearchFilterSort Settings"
+msgstr ""
+
+#: templates/admin/settings-page.php:45
+msgid "General Settings"
+msgstr ""
+
+#: templates/admin/settings-page.php:48
+msgid "Post Type"
+msgstr ""
+
+#: templates/admin/settings-page.php:58
+msgid "Taxonomy"
+msgstr ""
+
+#: templates/admin/settings-page.php:65
+msgid "Ensure this taxonomy belongs to the selected post type."
+msgstr ""
+
+#: templates/admin/settings-page.php:69
+msgid "Items Per Page"
+msgstr ""
+
+#: templates/admin/settings-page.php:78
+msgid "Display Options"
+msgstr ""
+
+#: templates/admin/settings-page.php:82
+msgid "Category Filter"
+msgstr ""
+
+#: templates/admin/settings-page.php:83
+msgid "Price Filter"
+msgstr ""
+
+#: templates/admin/settings-page.php:84
+msgid "Sort Dropdown"
+msgstr ""
+
+#: templates/admin/settings-page.php:105
+msgid "Layout Settings"
+msgstr ""
+
+#: templates/admin/settings-page.php:108
+msgid "Columns"
+msgstr ""
+
+#: templates/admin/settings-page.php:114
+msgid "Pagination Type"
+msgstr ""
+
+#: templates/admin/settings-page.php:124
+msgid "Filter Position"
+msgstr ""
+
+#: templates/admin/settings-page.php:137
+msgid "Action Button Settings"
+msgstr ""
+
+#: templates/admin/settings-page.php:140
+msgid "Button Type"
+msgstr ""
+
+#: templates/admin/settings-page.php:143
+msgid "View Button"
+msgstr ""
+
+#: templates/admin/settings-page.php:144
+msgid "Add to Cart Button"
+msgstr ""
+
+#: templates/admin/settings-page.php:145
+msgid "Hide Button"
+msgstr ""
+
+#: templates/admin/settings-page.php:150
+msgid "Button Label"
+msgstr ""
+
+#: templates/admin/settings-page.php:153
+msgid "Text to display on the button."
+msgstr ""
+
+#: templates/admin/settings-page.php:157
+msgid "Alignment"
+msgstr ""
+
+#: templates/admin/settings-page.php:161
+msgid "Center"
+msgstr ""
+
+#: templates/admin/settings-page.php:173
+msgid "Shortcode Preview"
+msgstr ""
+
+#: templates/admin/settings-page.php:177
+msgid "Copy Shortcode"
+msgstr ""
+
+#: templates/admin/settings-page.php:181
+msgid "This shortcode updates automatically as you change settings above. Copy and paste it into any page or post."
+msgstr ""
+
+#: templates/admin/settings-page.php:184
+msgid "Shortcode Parameters"
+msgstr ""
+
+#: templates/admin/settings-page.php:185
+msgid "You can override any default setting by adding parameters to the shortcode:"
+msgstr ""
+
+#: templates/admin/settings-page.php:189
+msgid "Parameter"
+msgstr ""
+
+#: templates/admin/settings-page.php:190
+msgid "Description"
+msgstr ""
+
+#: templates/admin/settings-page.php:191
+msgid "Example"
+msgstr ""
+
+#: templates/admin/settings-page.php:197
+msgid "Target post type to filter"
+msgstr ""
+
+#: templates/admin/settings-page.php:202
+msgid "Taxonomy used for category filter"
+msgstr ""
+
+#: templates/admin/settings-page.php:207
+msgid "Number of columns in grid (2-4)"
+msgstr ""
+
+#: templates/admin/settings-page.php:212
+msgid "Position of filter panel"
+msgstr ""
+
+#: templates/admin/settings-page.php:219
+msgid "Example:"
+msgstr ""
+
+#: templates/frontend/filters.php:41
+msgid "Categories"
+msgstr ""
+
+#: templates/frontend/filters.php:63
+msgid "Price Range"
+msgstr ""
+
+#: templates/frontend/filters.php:66
+msgid "Min"
+msgstr ""
+
+#: templates/frontend/filters.php:67
+msgid "Max"
+msgstr ""
+
+#: templates/frontend/filters.php:74
+msgid "Sort By"
+msgstr ""
+
+#: templates/frontend/filters.php:76
+msgid "Date (Newest)"
+msgstr ""
+
+#: templates/frontend/filters.php:77
+msgid "Title (A–Z)"
+msgstr ""
+
+#: templates/frontend/filters.php:78
+msgid "Price (Low to High)"
+msgstr ""
+
+#: templates/frontend/filters.php:79
+msgid "Price (High to Low)"
+msgstr ""
+
+#: templates/frontend/results.php:26
+msgid "View"
+msgstr ""
