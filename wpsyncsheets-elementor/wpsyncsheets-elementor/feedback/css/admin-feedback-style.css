@@ -1,0 +1,284 @@
+/*
+|------------------------------------------
+|       Deactivation feedback form
+|------------------------------------------
+*/
+#wpsse-deactivate-feedback-dialog-wrapper.hide-feedback-popup {
+	opacity: 0;
+}
+
+#wpsse-deactivate-feedback-dialog-wrapper .wpsse-deactivation-container {
+	align-items: center;
+	bottom: 0;
+	justify-content: center;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 99999;
+	display: flex;
+}
+
+#wpsse-deactivate-feedback-dialog-wrapper .wpsse-deactivation-container.deactivation-container-background {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.wpsse-deactivation-response {
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.25);
+	width: 600px;
+	overflow: hidden;
+	position: relative;
+}
+
+.wpsse-button {
+	padding: 7px 13px;
+	border-radius: 3px;
+	border-width: 1px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align: left;
+	border-style: solid;
+	display: flex;
+	gap: 8px;
+	align-items: center;
+}
+
+#wpsse-deactivate-feedback-dialog-form-body .wpsse-deactivate-feedback-dialog-input:not(:checked) ~ :where(.wpsse-feedback-text,.wpsse-extra-links) {
+	display: none;
+}
+
+#wpsse-deactivate-feedback-dialog-form-body .wpsse-extra-links {
+	margin: -0.5rem 0 1.3rem 0.5rem;
+}
+
+.wpsse-deactivation-response label {
+	display: block;
+	color: #474e55;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	margin-left: 26px;
+}
+
+.wpsse-deactivation-response textarea {
+	margin: 10px;
+	width: -webkit-fill-available;
+}
+
+.wpsse-deactivation-response input[type="radio"] {
+	float: left;
+	margin-right: 10px;
+	margin-top: 0;
+}
+
+label.wpsse-deactivate-feedback-dialog-label {
+	margin-bottom: 10px;
+	color: #474e55;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+span#wpsse-feedback-form-title {
+	font-weight: 700;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+#wpsse-deactivate-feedback-dialog-form-caption {
+	font-weight: 600;
+	margin-bottom: 17px;
+	font-size: 15px;
+	padding: 10px 15px 0 20px;
+}
+
+/*
+|-----------------------
+|       Preloader
+|-----------------------
+*/
+.wpsse-deactivation-response #wpsse-loader-wrapper {
+	display: none;
+	float: none;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	text-align: center;
+	opacity: 0.9;
+	background: white;
+}
+
+.wpsse-deactivation-response .wpsse-loader-container {
+	display: block;
+	top: 38%;
+	position: absolute;
+	left: 42%;
+	text-align: center;
+}
+
+.wpsse-deactivation-response img.wpsse-preloader {
+	width: 40px;
+	height: 40px;
+}
+
+/*
+|----------------------
+|        Colors
+|----------------------
+*/
+#wpsse-form-wrapper {
+	background-color: white;
+	color: black;
+}
+
+#wpsse-deactivate-feedback-dialog-form-body {
+	padding: 0 20px;
+}
+
+#wpsse-deactivate-feedback-dialog-header {
+	padding: 10px 20px;
+	background-color: #fff;
+	color: #000;
+	border-bottom: 1px solid #e1e1e1;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+a.wpsse-button:hover,
+.wpsse-button.button-deactivate:hover {
+	background: #135e96;
+	color: white;
+}
+
+#wpsse-form-wrapper input#wpsse-GDPR-data-notice {
+	float: left;
+	margin-top: 4px !important;
+}
+
+.wpsse-plugin-popup-button-wrapper {
+	border-top: 1px solid #e1e1e1;
+	padding: 12px 20px;
+	background-color: #f6f7f7;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.wpsse-uninstall-feedback-privacy-policy {
+	text-align: left;
+	font-size: 12px;
+	color: #aaa;
+	line-height: 14px;
+	margin: 20px 0;
+	font-style: italic;
+}
+
+.wpsse-deactivation-container .wpsse-form-title--icon-wrapper {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.wpsse-deactivation-container .wpsse-form-title--icon-wrapper .wpsse-icon {
+	width: 36px;
+}
+
+.wpsse-deactivation-container .wpsse-form-title--icon-wrapper .wpsse-title {
+	color: #1f2937;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 24px;
+	text-align: left;
+}
+
+.wpsse-form-title--icon-wrapper h2 {
+	margin: 0;
+	padding: 0;
+}
+
+#wpsse-deactivate-feedback-dialog-wrapper .wpsse-deactivate-feedback-dialog-close {
+	width: 20px;
+	height: 20px;
+	color: #9ca3af;
+	cursor: pointer;
+}
+
+#wpsse-deactivate-feedback-dialog-wrapper .wpsse-deactivate-feedback-dialog-close:hover {
+	color: #4b5563;
+}
+
+.wpsse-plugin-popup-button-wrapper #wpsse-plugin-submitNdeactivate {
+	background: #4169e1;
+	border-color: #4169e1;
+	box-shadow: none;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: none;
+	display: inline-block;
+	min-height: 28px;
+	margin: 0;
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	-webkit-appearance: none;
+	border-radius: 5px;
+	white-space: nowrap;
+	box-sizing: border-box;
+	text-align: center;
+	padding: 8px 16px;
+	line-height: 20px;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.wpsse-plugin-popup-button-wrapper #wpsse-plugin-submitNdeactivate {
+	padding: 6px 15px;
+	line-height: 2;
+	font-size: 15px;
+	min-width: 120px;
+}
+
+.wpsse-plugin-popup-button-wrapper #wpsse-plugin-submitNdeactivate:hover {
+	background: #547cf4;
+	border-color: #547cf4;
+}
+
+.wpsse-plugin-popup-button-wrapper #wpsse-plugin-submitNdeactivate.button-deactivate {
+	opacity: 0.4;
+	pointer-events: none;
+	cursor: default;
+}
+
+.wpsse-plugin-popup-button-wrapper #wpsse-plugin-skipNdeactivate {
+	background: transparent;
+	box-shadow: none;
+	color: #4169e1;
+	text-decoration: none;
+	text-shadow: none;
+	display: inline-block;
+	min-height: 28px;
+	cursor: pointer;
+	border: 1px solid #4169e1;
+	-webkit-appearance: none;
+	border-radius: 5px;
+	white-space: nowrap;
+	box-sizing: border-box;
+	text-align: center;
+	padding: 8px 16px;
+	line-height: 20px;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.wpsse-plugin-popup-button-wrapper #wpsse-plugin-skipNdeactivate:hover {
+	background: rgb(231 231 231 / 50%);
+}
+
+.wpsse-required-field-messages p {
+	color: #b32d2e;
+	margin: 0 0 8px 0;
+}

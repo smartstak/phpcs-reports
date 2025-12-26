@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="3.13.5">
+<file name="includes\class-wpssle-dependencies.php">
+ <error line="8" column="1" severity="error" message="Space after opening control structure is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterStructureOpen"/>
+ <error line="8" column="1" severity="error" message="No space before opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeOpenParenthesis"/>
+ <error line="8" column="1" severity="error" message="Expected 1 space after IF keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="8" column="5" severity="error" message="Expected 1 space after &quot;!&quot;; 0 found" source="WordPress.WhiteSpace.OperatorSpacing.NoSpaceAfter"/>
+ <error line="79" column="9" severity="error" message="Inline comments must end in full-stops, exclamation marks, or question marks" source="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+ <error line="84" column="9" severity="error" message="Inline comments must end in full-stops, exclamation marks, or question marks" source="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+ <error line="87" column="9" severity="error" message="Inline comments must end in full-stops, exclamation marks, or question marks" source="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+ <error line="90" column="9" severity="error" message="Inline comments must end in full-stops, exclamation marks, or question marks" source="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+ <error line="93" column="9" severity="error" message="Inline comments must end in full-stops, exclamation marks, or question marks" source="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+</file>
+<file name="includes\class-wpssle-form-sheets-action.php">
+ <error line="10" column="1" severity="error" message="Space after opening control structure is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterStructureOpen"/>
+ <error line="10" column="1" severity="error" message="No space before opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeOpenParenthesis"/>
+ <error line="10" column="1" severity="error" message="Expected 1 space after IF keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="10" column="5" severity="error" message="Expected 1 space after &quot;!&quot;; 0 found" source="WordPress.WhiteSpace.OperatorSpacing.NoSpaceAfter"/>
+</file>
+<file name="includes\class-wpssle-google-api-functions.php">
+ <error line="11" column="1" severity="error" message="Space after opening control structure is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterStructureOpen"/>
+ <error line="11" column="1" severity="error" message="No space before opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeOpenParenthesis"/>
+ <error line="11" column="1" severity="error" message="Expected 1 space after IF keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="11" column="5" severity="error" message="Expected 1 space after &quot;!&quot;; 0 found" source="WordPress.WhiteSpace.OperatorSpacing.NoSpaceAfter"/>
+ <error line="799" column="8" severity="error" message="Missing parameter comment" source="Squiz.Commenting.FunctionComment.MissingParamComment"/>
+ <error line="874" column="13" severity="error" message="Inline comments must end in full-stops, exclamation marks, or question marks" source="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+ <error line="880" column="13" severity="warning" message="This comment is 43% valid code; is this commented out code?" source="Squiz.PHP.CommentedOutCode.Found"/>
+ <error line="880" column="13" severity="error" message="Inline comments must end in full-stops, exclamation marks, or question marks" source="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+ <error line="886" column="13" severity="error" message="Inline comments must end in full-stops, exclamation marks, or question marks" source="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+ <error line="897" column="13" severity="error" message="Inline comments must end in full-stops, exclamation marks, or question marks" source="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+</file>
+<file name="includes\class-wpssle-google-api.php">
+ <error line="10" column="1" severity="error" message="Space after opening control structure is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterStructureOpen"/>
+ <error line="10" column="1" severity="error" message="No space before opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeOpenParenthesis"/>
+ <error line="10" column="1" severity="error" message="Expected 1 space after IF keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="10" column="5" severity="error" message="Expected 1 space after &quot;!&quot;; 0 found" source="WordPress.WhiteSpace.OperatorSpacing.NoSpaceAfter"/>
+</file>
+<file name="includes\class-wpssle-notifications.php">
+ <error line="37" column="16" severity="error" message="Missing doc comment for function maybe_run_review_notice()" source="Squiz.Commenting.FunctionComment.Missing"/>
+ <error line="60" column="13" severity="error" message="Inline comments must end in full-stops, exclamation marks, or question marks" source="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+ <error line="107" column="13" severity="error" message="Inline comments must end in full-stops, exclamation marks, or question marks" source="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+ <error line="139" column="75" severity="error" message="Detected usage of a non-sanitized input variable: $_SERVER['REQUEST_URI']" source="WordPress.Security.ValidatedSanitizedInput.InputNotSanitized"/>
+</file>
+<file name="includes\class-wpssle-plugin-setting.php">
+ <error line="1" column="1" severity="error" message="There must be no blank lines before the file comment" source="Squiz.Commenting.FileComment.SpacingAfterOpen"/>
+ <error line="10" column="1" severity="error" message="Space after opening control structure is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterStructureOpen"/>
+ <error line="10" column="1" severity="error" message="No space before opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeOpenParenthesis"/>
+ <error line="10" column="1" severity="error" message="Expected 1 space after IF keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="10" column="5" severity="error" message="Expected 1 space after &quot;!&quot;; 0 found" source="WordPress.WhiteSpace.OperatorSpacing.NoSpaceAfter"/>
+ <error line="27" column="2" severity="error" message="There must be no blank lines after the class comment" source="Squiz.Commenting.ClassComment.SpacingAfter"/>
+ <error line="117" column="9" severity="error" message="Inline comments must end in full-stops, exclamation marks, or question marks" source="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+ <error line="203" column="23" severity="warning" message="Processing form data without nonce verification." source="WordPress.Security.NonceVerification.Recommended"/>
+ <error line="203" column="56" severity="warning" message="Processing form data without nonce verification." source="WordPress.Security.NonceVerification.Recommended"/>
+ <error line="211" column="70" severity="warning" message="Processing form data without nonce verification." source="WordPress.Security.NonceVerification.Recommended"/>
+ <error line="280" column="29" severity="error" message="Empty line not required before block comment" source="Squiz.Commenting.BlockComment.HasEmptyLineBefore"/>
+ <error line="499" column="34" severity="warning" message="When passing the $key parameter to get_post_meta(), it is recommended to also pass the $single parameter to explicitly indicate whether a single value or multiple values are expected to be returned." source="WordPress.WP.GetMetaSingle.Missing"/>
+ <error line="700" column="21" severity="warning" message="Processing form data without nonce verification." source="WordPress.Security.NonceVerification.Recommended"/>
+ <error line="1013" column="53" severity="error" message="All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found 'WPSSLE_BUY_PRO_VERSION_URL'." source="WordPress.Security.EscapeOutput.OutputNotEscaped"/>
+ <error line="1173" column="49" severity="error" message="All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$changelog'." source="WordPress.Security.EscapeOutput.OutputNotEscaped"/>
+ <error line="1725" column="50" severity="warning" message="Found unknown capability &quot;edit_wpsyncsheets_elementor_lite_main_settings&quot; in function call to current_user_can(). Please check the spelling of the capability. If this is a custom capability, please verify the capability is registered with WordPress via a call to WP_Role(s)-&gt;add_cap().&#13;&#10;Custom capabilities can be made known to this sniff by setting the &quot;custom_capabilities&quot; property in the PHPCS ruleset." source="WordPress.WP.Capabilities.Unknown"/>
+ <error line="2031" column="75" severity="error" message="All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found 'WPSSLE_BUY_PRO_VERSION_URL'." source="WordPress.Security.EscapeOutput.OutputNotEscaped"/>
+ <error line="2488" column="75" severity="error" message="All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found 'WPSSLE_BUY_PRO_VERSION_URL'." source="WordPress.Security.EscapeOutput.OutputNotEscaped"/>
+ <error line="2545" column="20" severity="warning" message="file_get_contents() is discouraged. Use wp_remote_get() for remote URLs instead." source="WordPress.WP.AlternativeFunctions.file_get_contents_file_get_contents"/>
+ <error line="2646" column="23" severity="warning" message="Processing form data without nonce verification." source="WordPress.Security.NonceVerification.Recommended"/>
+ <error line="2654" column="70" severity="warning" message="Processing form data without nonce verification." source="WordPress.Security.NonceVerification.Recommended"/>
+ <error line="2730" column="34" severity="warning" message="Found unknown capability &quot;edit_wpsyncsheets_elementor_lite_main_settings&quot; in function call to current_user_can(). Please check the spelling of the capability. If this is a custom capability, please verify the capability is registered with WordPress via a call to WP_Role(s)-&gt;add_cap().&#13;&#10;Custom capabilities can be made known to this sniff by setting the &quot;custom_capabilities&quot; property in the PHPCS ruleset." source="WordPress.WP.Capabilities.Unknown"/>
+ <error line="2794" column="31" severity="error" message="Processing form data without nonce verification." source="WordPress.Security.NonceVerification.Missing"/>
+ <error line="2794" column="78" severity="error" message="Processing form data without nonce verification." source="WordPress.Security.NonceVerification.Missing"/>
+ <error line="2794" column="78" severity="error" message="$_POST['plugin_slug'] not unslashed before sanitization. Use wp_unslash() or similar" source="WordPress.Security.ValidatedSanitizedInput.MissingUnslash"/>
+ <error line="2812" column="14" severity="error" message="Processing form data without nonce verification." source="WordPress.Security.NonceVerification.Missing"/>
+ <error line="2812" column="14" severity="error" message="Detected usage of a possibly undefined superglobal array index: $_POST['plugin_active']. Check that the array index exists before using it." source="WordPress.Security.ValidatedSanitizedInput.InputNotValidated"/>
+ <error line="2812" column="38" severity="warning" message="Loose comparisons are not allowed. Expected: &quot;!==&quot;; Found: &quot;!=&quot;" source="Universal.Operators.StrictComparisons.LooseNotEqual"/>
+ <error line="2812" column="38" severity="error" message="Use Yoda Condition checks, you must." source="WordPress.PHP.YodaConditions.NotYoda"/>
+ <error line="2835" column="9" severity="error" message="Inline comments must end in full-stops, exclamation marks, or question marks" source="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+</file>
+<file name="src\class-wpsyncsheetselementor.php">
+ <error line="9" column="1" severity="error" message="Namespace declarations using the curly brace syntax are not allowed." source="Universal.Namespaces.DisallowCurlyBraceSyntax.Forbidden"/>
+ <error line="113" column="1" severity="error" message="There should be only one namespace declaration per file. The first declaration was found on line 9" source="Universal.Namespaces.OneDeclarationPerFile.MultipleFound"/>
+ <error line="113" column="1" severity="error" message="Namespace declarations using the curly brace syntax are not allowed." source="Universal.Namespaces.DisallowCurlyBraceSyntax.Forbidden"/>
+ <error line="113" column="1" severity="error" message="Namespace declarations without a namespace name are not allowed." source="Universal.Namespaces.DisallowDeclarationWithoutName.Forbidden"/>
+ <error line="122" column="5" severity="error" message="A file should either contain function declarations or OO structure declarations, but not both. Found 1 function declaration(s) and 1 OO structure declaration(s). The first function declaration was found on line 122; the first OO declaration was found on line 16" source="Universal.Files.SeparateFunctionsFromOO.Mixed"/>
+</file>
+</checkstyle>
+
