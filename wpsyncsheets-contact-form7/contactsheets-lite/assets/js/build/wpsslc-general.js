@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){"use strict";jQuery(".wpsslc-support").parent().attr("target","_blank")});

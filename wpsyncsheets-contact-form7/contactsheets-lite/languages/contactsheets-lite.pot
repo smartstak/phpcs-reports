@@ -1,0 +1,222 @@
+# Copyright (C) 2024 Creative Werk Designs
+# This file is distributed under the same license as the WPSyncSheets Lite For Contact Form 7 plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPSyncSheets Lite For Contact Form 7 1.5.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/contactsheets-lite\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-08-10T08:06:37+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: wpssc\n"
+
+#. Plugin Name of the plugin
+msgid "WPSyncSheets Lite For Contact Form 7"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://www.wpsyncsheets.com/wpsyncsheets-for-contact-form-7/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Send your Contact Form 7 data to your Google Sheets spreadsheet."
+msgstr ""
+
+#. Author of the plugin
+msgid "Creative Werk Designs"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.creativewerkdesigns.com/"
+msgstr ""
+
+#: includes/class-wpsslc-google-api-functions.php:313
+msgid "Create New"
+msgstr ""
+
+#: includes/class-wpsslc-google-api-functions.php:318
+msgid "Create New Spreadsheet"
+msgstr ""
+
+#: includes/class-wpsslc-plugin-settings.php:97
+msgid "WPSyncSheets Lite"
+msgstr ""
+
+#: includes/class-wpsslc-plugin-settings.php:182
+msgid "View Documentation"
+msgstr ""
+
+#: includes/class-wpsslc-plugin-settings.php:368
+#: includes/class-wpsslc-service.php:497
+msgid "Google API Settings"
+msgstr ""
+
+#: includes/class-wpsslc-plugin-settings.php:369
+msgid "Google APIs allow you to embed Google Services in your online site. To connect Google Drive and Google Sheets with your WordPress website, you need to generate dedicated API keys. To begin the process, kindly log in to your Gmail Account and follow the link to initiate the setup "
+msgstr ""
+
+#: includes/class-wpsslc-plugin-settings.php:369
+msgid "click here"
+msgstr ""
+
+#: includes/class-wpsslc-plugin-settings.php:380
+msgid "Client ID"
+msgstr ""
+
+#: includes/class-wpsslc-plugin-settings.php:392
+msgid "Client Secret Key"
+msgstr ""
+
+#: includes/class-wpsslc-plugin-settings.php:408
+msgid "Client Token"
+msgstr ""
+
+#: includes/class-wpsslc-plugin-settings.php:415
+msgid "Click here to generate an Authentication Token"
+msgstr ""
+
+#: includes/class-wpsslc-plugin-settings.php:465
+msgid "Authorized Domain : "
+msgstr ""
+
+#: includes/class-wpsslc-plugin-settings.php:476
+msgid "Authorised redirect URIs : "
+msgstr ""
+
+#: includes/class-wpsslc-service.php:87
+msgid "WPSyncSheets Lite Settings"
+msgstr ""
+
+#: includes/class-wpsslc-service.php:104
+#: includes/class-wpsslc-service.php:987
+msgid "Sorry, your nonce did not verify."
+msgstr ""
+
+#: includes/class-wpsslc-service.php:458
+msgid "Edit Sheet Headers"
+msgstr ""
+
+#: includes/class-wpsslc-service.php:459
+msgid "Sorting Sheet Headers"
+msgstr ""
+
+#: includes/class-wpsslc-service.php:460
+msgid "User Agent & Submission Time Sheet Headers"
+msgstr ""
+
+#: includes/class-wpsslc-service.php:461
+msgid "Special Mail Tags Options"
+msgstr ""
+
+#: includes/class-wpsslc-service.php:462
+msgid "6+ Third Party Plugins Compatibility"
+msgstr ""
+
+#: includes/class-wpsslc-service.php:466
+msgid "Upgrade To Pro"
+msgstr ""
+
+#: includes/class-wpsslc-service.php:486
+msgid "Error: Invalid Token - "
+msgstr ""
+
+#: includes/class-wpsslc-service.php:486
+msgid "Click here</a> to check more information."
+msgstr ""
+
+#: includes/class-wpsslc-service.php:495
+msgid "Please genearate authentication code from"
+msgstr ""
+
+#: includes/class-wpsslc-service.php:498
+msgid "Click here"
+msgstr ""
+
+#: includes/class-wpsslc-service.php:536
+msgid "WPSyncSheets Lite For Contact Form 7 Settings"
+msgstr ""
+
+#: includes/class-wpsslc-service.php:538
+msgid "All Settings"
+msgstr ""
+
+#: includes/class-wpsslc-service.php:552
+msgid "Select Google Spreadsheet"
+msgstr ""
+
+#: includes/class-wpsslc-service.php:571
+msgid "View Spreadsheet"
+msgstr ""
+
+#: includes/class-wpsslc-service.php:572
+msgid "Download Spreadsheet"
+msgstr ""
+
+#: includes/class-wpsslc-service.php:580
+msgid "Select Sheet Name"
+msgstr ""
+
+#: includes/class-wpsslc-service.php:585
+msgid "Select Sheet"
+msgstr ""
+
+#: includes/class-wpsslc-service.php:604
+msgid "Enter Spreadsheet name"
+msgstr ""
+
+#: includes/class-wpsslc-service.php:608
+msgid "Enter Sheet name"
+msgstr ""
+
+#: includes/class-wpsslc-service.php:615
+msgid "Sheet Headers"
+msgstr ""
+
+#: includes/class-wpsslc-service.php:682
+#: includes/class-wpsslc-service.php:704
+msgid "Map Field : "
+msgstr ""
+
+#: includes/class-wpsslc-service.php:713
+msgid "Select All"
+msgstr ""
+
+#: includes/class-wpsslc-service.php:714
+msgid "Select None"
+msgstr ""
+
+#: includes/class-wpsslc-service.php:716
+msgid "Freeze Header"
+msgstr ""
+
+#: includes/class-wpsslc-service.php:727
+msgid "Submission Date"
+msgstr ""
+
+#: includes/class-wpsslc-service.php:739
+msgid "Clear Spreadsheet"
+msgstr ""
+
+#: includes/class-wpsslc-service.php:741
+msgid "Click to Clear"
+msgstr ""
+
+#: includes/class-wpsslc-service.php:755
+msgid "Please save your newly created form for WPSyncSheets Lite For Contact Form 7 settings."
+msgstr ""
+
+#: includes/class-wpsslc-service.php:767
+msgid "Select Google Spreeadsheet List"
+msgstr ""
+
+#: includes/class-wpsslc-utility.php:70
+msgid "There's something wrong with your code..."
+msgstr ""
+
+#: wpsyncsheets-lite-contact-form-7.php:53
+msgid "Settings"
+msgstr ""
