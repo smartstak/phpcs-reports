@@ -1,0 +1,20 @@
+#headercheckbox
+{
+	margin-top: -4px;
+}
+.headercheckboxspan
+{
+	padding-top:11px;
+	display: inline-block;
+}
+#syncloader
+{
+	float: left;
+	display : none;
+
+}
+#synctext
+{
+	margin-left: 6px;
+	display : none;
+}

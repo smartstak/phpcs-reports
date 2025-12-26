@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){jQuery(".wpsslgf-support").parent().attr("target","_blank")});

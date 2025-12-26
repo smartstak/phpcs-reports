@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="3.13.5">
+<file name="includes\class-wpsslgf-dependencies.php">
+ <error line="68" column="5" severity="error" message="Expected 5 spaces before asterisk; 4 found" source="Squiz.Commenting.DocCommentAlignment.SpaceBeforeStar"/>
+ <error line="69" column="70" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="Squiz.Functions.FunctionDeclarationArgumentSpacing.SpacingAfterOpen"/>
+ <error line="69" column="97" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="Squiz.Functions.FunctionDeclarationArgumentSpacing.SpacingBeforeClose"/>
+ <error line="70" column="9" severity="error" message="Inline comments must end in full-stops, exclamation marks, or question marks" source="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+ <error line="75" column="9" severity="error" message="Inline comments must end in full-stops, exclamation marks, or question marks" source="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+ <error line="77" column="1" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="78" column="9" severity="error" message="Inline comments must end in full-stops, exclamation marks, or question marks" source="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+ <error line="79" column="25" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="79" column="49" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="81" column="9" severity="error" message="Inline comments must end in full-stops, exclamation marks, or question marks" source="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+ <error line="82" column="22" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="82" column="51" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="84" column="9" severity="error" message="Inline comments must end in full-stops, exclamation marks, or question marks" source="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+ <error line="85" column="48" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="85" column="89" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="87" column="16" severity="error" message="Short array syntax is not allowed" source="Universal.Arrays.DisallowShortArraySyntax.Found"/>
+ <error line="88" column="32" severity="warning" message="Array double arrow not aligned correctly; expected 6 space(s) between &quot;'installed'&quot; and double arrow, but found 8." source="WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned"/>
+ <error line="89" column="32" severity="warning" message="Array double arrow not aligned correctly; expected 9 space(s) between &quot;'active'&quot; and double arrow, but found 11." source="WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned"/>
+ <error line="90" column="32" severity="warning" message="Array double arrow not aligned correctly; expected 1 space(s) between &quot;'network_active'&quot; and double arrow, but found 3." source="WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned"/>
+</file>
+<file name="includes\class-wpsslgf-google-api-functions.php">
+ <error line="215" column="18" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="215" column="37" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="226" column="15" severity="error" message="If control structure block found as the only statement within an &quot;else&quot; block. Use elseif instead." source="Universal.ControlStructures.DisallowLonelyIf.Found"/>
+ <error line="234" column="21" severity="error" message="Space after opening control structure is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterStructureOpen"/>
+ <error line="234" column="21" severity="error" message="No space before opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeOpenParenthesis"/>
+ <error line="234" column="21" severity="error" message="No space after opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis"/>
+ <error line="234" column="21" severity="error" message="Expected 1 space after IF keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="234" column="24" severity="error" message="Expected 1 space before &quot;!&quot;; 0 found" source="WordPress.WhiteSpace.OperatorSpacing.NoSpaceBefore"/>
+ <error line="234" column="107" severity="error" message="Expected 1 space after closing parenthesis; found 0" source="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis"/>
+ <error line="234" column="108" severity="error" message="Space between opening control structure and closing parenthesis is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterCloseParenthesis"/>
+ <error line="253" column="17" severity="error" message="Spaces must be used for mid-line alignment; tabs are not allowed" source="Universal.WhiteSpace.DisallowInlineTabs.NonIndentTabsUsed"/>
+ <error line="253" column="17" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="254" column="82" severity="error" message="Expected 1 space after &quot;!&quot;; 0 found" source="WordPress.WhiteSpace.OperatorSpacing.NoSpaceAfter"/>
+ <error line="255" column="17" severity="error" message="Space after opening control structure is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterStructureOpen"/>
+ <error line="255" column="17" severity="error" message="No space before opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeOpenParenthesis"/>
+ <error line="255" column="17" severity="error" message="Expected 1 space after IF keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="255" column="21" severity="error" message="TRUE, FALSE and NULL must be lowercase; expected &quot;null&quot; but found &quot;Null&quot;" source="Generic.PHP.LowerCaseConstant.Found"/>
+ <error line="255" column="80" severity="error" message="Expected 1 space after closing parenthesis; found 0" source="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis"/>
+ <error line="255" column="81" severity="error" message="Space between opening control structure and closing parenthesis is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterCloseParenthesis"/>
+ <error line="271" column="1" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="274" column="17" severity="error" message="Space after opening control structure is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterStructureOpen"/>
+ <error line="274" column="17" severity="error" message="No space before opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeOpenParenthesis"/>
+ <error line="274" column="17" severity="error" message="No space after opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis"/>
+ <error line="274" column="17" severity="error" message="Expected 1 space after IF keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="274" column="20" severity="error" message="Expected 1 space before &quot;!&quot;; 0 found" source="WordPress.WhiteSpace.OperatorSpacing.NoSpaceBefore"/>
+ <error line="274" column="68" severity="error" message="Expected 1 space after closing parenthesis; found 0" source="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis"/>
+ <error line="274" column="69" severity="error" message="Space between opening control structure and closing parenthesis is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterCloseParenthesis"/>
+</file>
+<file name="includes\class-wpsslgf-notifications.php">
+ <error line="38" column="16" severity="error" message="Missing doc comment for function maybe_run_review_notice()" source="Squiz.Commenting.FunctionComment.Missing"/>
+ <error line="61" column="13" severity="error" message="Inline comments must end in full-stops, exclamation marks, or question marks" source="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+ <error line="89" column="9" severity="error" message="Function closing brace must go on the next line following the body; found 1 blank lines before brace" source="PSR2.Methods.FunctionClosingBrace.SpacingBeforeClose"/>
+ <error line="108" column="13" severity="error" message="Inline comments must end in full-stops, exclamation marks, or question marks" source="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+ <error line="140" column="75" severity="error" message="Detected usage of a non-sanitized input variable: $_SERVER['REQUEST_URI']" source="WordPress.Security.ValidatedSanitizedInput.InputNotSanitized"/>
+ <error line="145" column="24" severity="warning" message="Equals sign not aligned with surrounding assignments; expected 3 spaces but found 1 space" source="Generic.Formatting.MultipleStatementAlignment.NotSameWarning"/>
+</file>
+<file name="includes\class-wpsslgf-plugin-settings.php">
+ <error line="7" column="2" severity="error" message="There must be exactly one blank line after the file comment" source="Squiz.Commenting.FileComment.SpacingAfterComment"/>
+ <error line="8" column="1" severity="error" message="Space after opening control structure is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterStructureOpen"/>
+ <error line="8" column="1" severity="error" message="No space before opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeOpenParenthesis"/>
+ <error line="8" column="1" severity="error" message="Expected 1 space after IF keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="8" column="5" severity="error" message="Expected 1 space after &quot;!&quot;; 0 found" source="WordPress.WhiteSpace.OperatorSpacing.NoSpaceAfter"/>
+ <error line="81" column="9" severity="error" message="Inline comments must end in full-stops, exclamation marks, or question marks" source="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+ <error line="82" column="9" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="82" column="110" severity="error" message="Expected 1 space before the array closer in a single line array. Found: no spaces" source="NormalizedArrays.Arrays.ArrayBraceSpacing.SpaceBeforeArrayCloserSingleLine"/>
+ <error line="146" column="1" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="184" column="40" severity="warning" message="Array double arrow not aligned correctly; expected 14 space(s) between &quot;'ajaxurl'&quot; and double arrow, but found 10." source="WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned"/>
+ <error line="185" column="40" severity="warning" message="Array double arrow not aligned correctly; expected 5 space(s) between &quot;'sync_nonce_token'&quot; and double arrow, but found 1." source="WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned"/>
+ <error line="239" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="240" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="251" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="411" column="42" severity="error" message="Expected 1 space before closing PHP tag; 2 found" source="Squiz.PHP.EmbeddedPhp.SpacingBeforeClose"/>
+ <error line="411" column="53" severity="error" message="All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found 'WPSSLGF_BUY_PRO_VERSION_URL'." source="WordPress.Security.EscapeOutput.OutputNotEscaped"/>
+ <error line="432" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="445" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="507" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="605" column="53" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="606" column="101" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="608" column="67" severity="warning" message="Equals sign not aligned with surrounding assignments; expected 6 spaces but found 1 space" source="Generic.Formatting.MultipleStatementAlignment.NotSameWarning"/>
+ <error line="608" column="91" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="608" column="172" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="611" column="53" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="613" column="53" severity="error" message="Line indented incorrectly; expected 14 tabs, found 13" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="617" column="61" severity="warning" message="Usage of ELSE IF is discouraged; use ELSEIF instead" source="PSR2.ControlStructures.ElseIfDeclaration.NotAllowed"/>
+ <error line="617" column="66" severity="error" message="Space after opening control structure is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterStructureOpen"/>
+ <error line="617" column="66" severity="error" message="No space before opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeOpenParenthesis"/>
+ <error line="617" column="66" severity="error" message="No space after opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis"/>
+ <error line="617" column="66" severity="error" message="Expected 1 space after IF keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="617" column="69" severity="error" message="Expected 1 space before &quot;!&quot;; 0 found" source="WordPress.WhiteSpace.OperatorSpacing.NoSpaceBefore"/>
+ <error line="617" column="97" severity="error" message="No space before closing parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis"/>
+ <error line="644" column="53" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="645" column="99" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="647" column="67" severity="warning" message="Equals sign not aligned with surrounding assignments; expected 6 spaces but found 1 space" source="Generic.Formatting.MultipleStatementAlignment.NotSameWarning"/>
+ <error line="647" column="91" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="647" column="172" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="650" column="53" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="652" column="53" severity="error" message="Line indented incorrectly; expected 14 tabs, found 13" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="656" column="61" severity="warning" message="Usage of ELSE IF is discouraged; use ELSEIF instead" source="PSR2.ControlStructures.ElseIfDeclaration.NotAllowed"/>
+ <error line="656" column="66" severity="error" message="Space after opening control structure is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterStructureOpen"/>
+ <error line="656" column="66" severity="error" message="No space before opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeOpenParenthesis"/>
+ <error line="656" column="66" severity="error" message="No space after opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis"/>
+ <error line="656" column="66" severity="error" message="Expected 1 space after IF keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="656" column="69" severity="error" message="Expected 1 space before &quot;!&quot;; 0 found" source="WordPress.WhiteSpace.OperatorSpacing.NoSpaceBefore"/>
+ <error line="656" column="97" severity="error" message="No space before closing parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis"/>
+ <error line="689" column="53" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="690" column="95" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="692" column="67" severity="warning" message="Equals sign not aligned with surrounding assignments; expected 6 spaces but found 1 space" source="Generic.Formatting.MultipleStatementAlignment.NotSameWarning"/>
+ <error line="692" column="91" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="692" column="172" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="695" column="53" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="697" column="53" severity="error" message="Line indented incorrectly; expected 14 tabs, found 13" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="701" column="61" severity="warning" message="Usage of ELSE IF is discouraged; use ELSEIF instead" source="PSR2.ControlStructures.ElseIfDeclaration.NotAllowed"/>
+ <error line="701" column="66" severity="error" message="Space after opening control structure is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterStructureOpen"/>
+ <error line="701" column="66" severity="error" message="No space before opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeOpenParenthesis"/>
+ <error line="701" column="66" severity="error" message="No space after opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis"/>
+ <error line="701" column="66" severity="error" message="Expected 1 space after IF keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="701" column="69" severity="error" message="Expected 1 space before &quot;!&quot;; 0 found" source="WordPress.WhiteSpace.OperatorSpacing.NoSpaceBefore"/>
+ <error line="701" column="97" severity="error" message="No space before closing parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis"/>
+ <error line="728" column="53" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="729" column="98" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="731" column="68" severity="warning" message="Equals sign not aligned with surrounding assignments; expected 6 spaces but found 1 space" source="Generic.Formatting.MultipleStatementAlignment.NotSameWarning"/>
+ <error line="731" column="92" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="731" column="175" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="734" column="53" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="736" column="53" severity="error" message="Line indented incorrectly; expected 14 tabs, found 13" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="740" column="61" severity="warning" message="Usage of ELSE IF is discouraged; use ELSEIF instead" source="PSR2.ControlStructures.ElseIfDeclaration.NotAllowed"/>
+ <error line="740" column="66" severity="error" message="Space after opening control structure is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterStructureOpen"/>
+ <error line="740" column="66" severity="error" message="No space before opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeOpenParenthesis"/>
+ <error line="740" column="66" severity="error" message="No space after opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis"/>
+ <error line="740" column="66" severity="error" message="Expected 1 space after IF keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="740" column="69" severity="error" message="Expected 1 space before &quot;!&quot;; 0 found" source="WordPress.WhiteSpace.OperatorSpacing.NoSpaceBefore"/>
+ <error line="740" column="98" severity="error" message="No space before closing parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis"/>
+ <error line="749" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="773" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="778" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="798" column="50" severity="warning" message="Found unknown capability &quot;edit_wpsyncsheets_gravity_forms_lite_main_settings&quot; in function call to current_user_can(). Please check the spelling of the capability. If this is a custom capability, please verify the capability is registered with WordPress via a call to WP_Role(s)-&gt;add_cap().&#13;&#10;Custom capabilities can be made known to this sniff by setting the &quot;custom_capabilities&quot; property in the PHPCS ruleset." source="WordPress.WP.Capabilities.Unknown"/>
+ <error line="951" column="64" severity="error" message="Expected 1 space before closing PHP tag; 2 found" source="Squiz.PHP.EmbeddedPhp.SpacingBeforeClose"/>
+ <error line="951" column="75" severity="error" message="All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found 'WPSSLGF_BUY_PRO_VERSION_URL'." source="WordPress.Security.EscapeOutput.OutputNotEscaped"/>
+ <error line="1230" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="1274" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="1278" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="1293" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="1298" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="1326" column="64" severity="error" message="Expected 1 space before closing PHP tag; 2 found" source="Squiz.PHP.EmbeddedPhp.SpacingBeforeClose"/>
+ <error line="1326" column="75" severity="error" message="All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found 'WPSSLGF_BUY_PRO_VERSION_URL'." source="WordPress.Security.EscapeOutput.OutputNotEscaped"/>
+ <error line="1327" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="1328" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="1330" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="1331" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="1411" column="5" severity="error" message="Expected 5 spaces before asterisk; 4 found" source="Squiz.Commenting.DocCommentAlignment.SpaceBeforeStar"/>
+ <error line="1414" column="9" severity="error" message="No space after opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis"/>
+ <error line="1414" column="13" severity="error" message="Expected 1 space before &quot;!&quot;; 0 found" source="WordPress.WhiteSpace.OperatorSpacing.NoSpaceBefore"/>
+ <error line="1414" column="13" severity="error" message="Expected 1 space after &quot;!&quot;; 0 found" source="WordPress.WhiteSpace.OperatorSpacing.NoSpaceAfter"/>
+ <error line="1414" column="14" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1414" column="48" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="1414" column="49" severity="error" message="No space before closing parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis"/>
+ <error line="1415" column="13" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1415" column="52" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="1418" column="24" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1418" column="30" severity="error" message="Processing form data without nonce verification." source="WordPress.Security.NonceVerification.Missing"/>
+ <error line="1418" column="51" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="1418" column="55" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1418" column="75" severity="error" message="Processing form data without nonce verification." source="WordPress.Security.NonceVerification.Missing"/>
+ <error line="1418" column="75" severity="error" message="$_POST['plugin_slug'] not unslashed before sanitization. Use wp_unslash() or similar" source="WordPress.Security.ValidatedSanitizedInput.MissingUnslash"/>
+ <error line="1418" column="96" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="1420" column="14" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1420" column="32" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="1421" column="13" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1421" column="54" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="1430" column="9" severity="error" message="Space after opening control structure is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterStructureOpen"/>
+ <error line="1430" column="9" severity="error" message="No space before opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeOpenParenthesis"/>
+ <error line="1430" column="9" severity="error" message="No space after opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis"/>
+ <error line="1430" column="9" severity="error" message="Expected 1 space after IF keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="1430" column="11" severity="error" message="Opening brace should be on the same line as the declaration" source="WordPress.WhiteSpace.ControlStructureSpacing.OpenBraceNotSameLine"/>
+ <error line="1430" column="12" severity="error" message="Processing form data without nonce verification." source="WordPress.Security.NonceVerification.Missing"/>
+ <error line="1430" column="12" severity="error" message="Detected usage of a possibly undefined superglobal array index: $_POST['plugin_active']. Check that the array index exists before using it." source="WordPress.Security.ValidatedSanitizedInput.InputNotValidated"/>
+ <error line="1430" column="36" severity="warning" message="Loose comparisons are not allowed. Expected: &quot;!==&quot;; Found: &quot;!=&quot;" source="Universal.Operators.StrictComparisons.LooseNotEqual"/>
+ <error line="1430" column="36" severity="error" message="Use Yoda Condition checks, you must." source="WordPress.PHP.YodaConditions.NotYoda"/>
+ <error line="1430" column="43" severity="error" message="No space before closing parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis"/>
+ <error line="1430" column="43" severity="error" message="Expected 1 space after closing parenthesis; found newline" source="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis"/>
+ <error line="1432" column="29" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1432" column="72" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="1433" column="21" severity="warning" message="Equals sign not aligned with surrounding assignments; expected 3 spaces but found 1 space" source="Generic.Formatting.MultipleStatementAlignment.NotSameWarning"/>
+ <error line="1433" column="34" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1433" column="115" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="1434" column="1" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="1435" column="13" severity="error" message="No space after opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis"/>
+ <error line="1435" column="17" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1435" column="36" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="1435" column="37" severity="error" message="No space before closing parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis"/>
+ <error line="1436" column="17" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1436" column="97" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="1440" column="20" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1440" column="49" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="1441" column="9" severity="error" message="No space after opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis"/>
+ <error line="1441" column="13" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1441" column="27" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="1441" column="28" severity="error" message="No space before closing parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis"/>
+ <error line="1442" column="13" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1442" column="66" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="1445" column="9" severity="error" message="Inline comments must end in full-stops, exclamation marks, or question marks" source="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+ <error line="1446" column="24" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1446" column="36" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="1448" column="23" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1448" column="70" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="1450" column="9" severity="error" message="No space after opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis"/>
+ <error line="1450" column="13" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1450" column="36" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="1450" column="37" severity="error" message="No space before closing parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis"/>
+ <error line="1451" column="13" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1451" column="88" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="1454" column="9" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="1454" column="76" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+</file>
+<file name="src\class-wpsyncsheetsgravityforms.php">
+ <error line="9" column="1" severity="error" message="Namespace declarations using the curly brace syntax are not allowed." source="Universal.Namespaces.DisallowCurlyBraceSyntax.Forbidden"/>
+ <error line="105" column="1" severity="error" message="There should be only one namespace declaration per file. The first declaration was found on line 9" source="Universal.Namespaces.OneDeclarationPerFile.MultipleFound"/>
+ <error line="105" column="1" severity="error" message="Namespace declarations using the curly brace syntax are not allowed." source="Universal.Namespaces.DisallowCurlyBraceSyntax.Forbidden"/>
+ <error line="105" column="1" severity="error" message="Namespace declarations without a namespace name are not allowed." source="Universal.Namespaces.DisallowDeclarationWithoutName.Forbidden"/>
+ <error line="114" column="5" severity="error" message="A file should either contain function declarations or OO structure declarations, but not both. Found 1 function declaration(s) and 1 OO structure declaration(s). The first function declaration was found on line 114; the first OO declaration was found on line 16" source="Universal.Files.SeparateFunctionsFromOO.Mixed"/>
+</file>
+<file name="wpsyncsheets-lite-gravity-forms.php">
+ <error line="18" column="1" severity="error" message="Space after opening control structure is required" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterStructureOpen"/>
+ <error line="18" column="1" severity="error" message="No space before opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeOpenParenthesis"/>
+ <error line="18" column="1" severity="error" message="Expected 1 space after IF keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="18" column="5" severity="error" message="Expected 1 space after &quot;!&quot;; 0 found" source="WordPress.WhiteSpace.OperatorSpacing.NoSpaceAfter"/>
+ <error line="23" column="1" severity="warning" message="Found precision alignment of 1 spaces." source="Universal.WhiteSpace.PrecisionAlignment.Found"/>
+ <error line="23" column="2" severity="error" message="Line indented incorrectly; expected 0 tabs, found 1 spaces" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="23" column="2" severity="error" message="No space after opening parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis"/>
+ <error line="23" column="6" severity="error" message="Expected 1 space before &quot;!&quot;; 0 found" source="WordPress.WhiteSpace.OperatorSpacing.NoSpaceBefore"/>
+ <error line="23" column="6" severity="error" message="Expected 1 space after &quot;!&quot;; 0 found" source="WordPress.WhiteSpace.OperatorSpacing.NoSpaceAfter"/>
+ <error line="23" column="7" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="23" column="41" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="23" column="42" severity="error" message="No space before closing parenthesis is prohibited" source="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis"/>
+ <error line="24" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
+ <error line="24" column="5" severity="error" message="&quot;include_once&quot; is a statement not a function; no parentheses are required" source="PEAR.Files.IncludingFile.BracketsNotRequired"/>
+ <error line="24" column="5" severity="error" message="Expected 1 spaces after opening parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="24" column="58" severity="error" message="Expected 1 spaces before closing parenthesis; 0 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="28" column="1" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="40" column="44" severity="error" message="Use the __DIR__ constant instead of calling dirname(__FILE__) (PHP &gt;= 5.3)" source="Modernize.FunctionCalls.Dirname.FileConstant"/>
+ <error line="44" column="1" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="46" column="39" severity="error" message="Use the __DIR__ constant instead of calling dirname(__FILE__) (PHP &gt;= 5.3)" source="Modernize.FunctionCalls.Dirname.FileConstant"/>
+ <error line="49" column="1" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="104" column="39" severity="error" message="No space found after comma in argument list" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="107" column="22" severity="error" message="Use the __DIR__ constant instead of calling dirname(__FILE__) (PHP &gt;= 5.3)" source="Modernize.FunctionCalls.Dirname.FileConstant"/>
+</file>
+</checkstyle>
+

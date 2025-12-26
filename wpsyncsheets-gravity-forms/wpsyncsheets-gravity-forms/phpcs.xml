@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<ruleset name="WPSyncSheets Gravity Forms">
+    <description>WPSyncSheets Gravity Forms rules for PHP_CodeSnifferr</description>
+
+    <file>.</file>
+
+    <exclude-pattern>assets/*</exclude-pattern>
+    <exclude-pattern>node_modules/*</exclude-pattern>
+    <exclude-pattern>lib/*</exclude-pattern>
+    <exclude-pattern>vendor/*</exclude-pattern>
+    <exclude-pattern>languages/*</exclude-pattern>
+    <exclude-pattern>feedback/*</exclude-pattern>
+    
+    <rule ref="WordPress">
+        <exclude name="WordPress.Files.FileName.NotHyphenatedLowercase"/>
+        <exclude name="WordPress.Files.FileName.InvalidClassFileName"/>
+        <exclude name="WordPress.NamingConventions.ValidHookName.UseUnderscores"/>
+    </rule>
+
+    <config name="testVersion" value="7.4-"/>
+    <rule ref="PHPCompatibilityWP"/>
+
+    <rule ref="Squiz.Commenting.FunctionComment.ScalarTypeHintMissing">
+        <severity>0</severity>
+    </rule>
+
+    <arg name="extensions" value="php"/>
+    <arg value="sp"/>
+    <arg name="basepath" value="./"/>
+    <arg name="parallel" value="20"/>
+</ruleset>

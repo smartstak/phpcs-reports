@@ -1,0 +1,50 @@
+:root {
+
+  --primary-color: #4169E1;
+
+  --secondary-color: #7B98EE;
+
+  --hover-color: #547cf4;
+
+  --fill-color: #4169E1;
+
+}
+.wpsslgf-feed-prosection {
+	position: relative;
+	right: 0px;
+	left: 22px;
+	margin-top: -20px;
+	margin-right: 20px;
+	z-index: 99;
+	float: right;
+	top: -37px;
+
+}
+.wpsslgf-feed-prosection .pro-version a {
+	color: var(--primary-color);
+	background: #ffffff;
+	text-decoration: none;
+	outline: none;
+	font-size: 16px;
+	padding: 7px 15px 8px 38px;
+	display: inline-block;
+	position: relative;
+	border-radius: 8px;
+	font-weight: 600;
+}
+.duc-btn1.pro-version .dashicons {
+    margin-right: 5px;
+}
+#gform_google_view_button,
+#gform_google_clear_button{
+	margin-right: 10px !important;
+}
+
+#clearloader{
+	margin-right: 10px;
+	margin-top: 5px;
+	display:none;
+}
+#cleartext{
+	display:none;
+}

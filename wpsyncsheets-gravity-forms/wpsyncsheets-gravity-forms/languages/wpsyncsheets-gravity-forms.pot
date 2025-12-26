@@ -1,0 +1,311 @@
+# Copyright (C) 2024 Creative Werk Designs
+# This file is distributed under the same license as the WPSyncSheets Lite For Gravity Forms plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPSyncSheets Lite For Gravity Forms 1.5.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsyncsheets-gravity-forms\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-08-09T08:41:40+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: wpssg\n"
+
+#. Plugin Name of the plugin
+msgid "WPSyncSheets Lite For Gravity Forms"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://www.wpsyncsheets.com/wpsyncsheets-for-gravity-forms/"
+msgstr ""
+
+#. Description of the plugin
+msgid "An automated, run-time solution for Gravity Forms entries. Users can export Gravity Forms entries into a single Google Spreadsheet."
+msgstr ""
+
+#. Author of the plugin
+msgid "Creative Werk Designs"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.creativewerkdesigns.com/"
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:200
+msgid "Error: Invalid Token - "
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:200
+msgid "Click here"
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:200
+msgid "to check more information."
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:245
+msgid "Feed Name"
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:250
+#: includes/class-wpsslgf-feed-settings.php:529
+msgid "Name"
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:250
+msgid "Enter a feed name to uniquely identify this setup."
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:253
+msgid "Select Spreadsheet"
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:256
+msgid "Select spreadsheet associated with your google account"
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:262
+msgid "Google Spreadsheet"
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:269
+msgid "Create new Google spreadsheet into your google account"
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:273
+msgid "Select Sheet"
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:276
+msgid "Select sheet as you have created with above selected spreadsheet"
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:285
+msgid "Set default headers from form fields"
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:298
+msgid "Other Feed Settings"
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:307
+msgid "Map Fields"
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:313
+#: includes/class-wpsslgf-feed-settings.php:316
+msgid "Submission Date"
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:319
+#: includes/class-wpsslgf-feed-settings.php:332
+#: includes/class-wpsslgf-feed-settings.php:345
+msgid "Enable"
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:326
+#: includes/class-wpsslgf-feed-settings.php:329
+msgid "Form ID"
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:339
+#: includes/class-wpsslgf-feed-settings.php:342
+msgid "Form Title"
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:352
+msgid "Freeze Header"
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:355
+msgid "Freeze header row (first row) of sheet"
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:366
+msgid "View, Clear & Download Spreadsheet"
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:414
+msgid "Spreadsheet Name"
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:416
+msgid "Sheet Name"
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:419
+msgid "Set deafult headers as per the form fields"
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:420
+msgid "Create New Spreadsheet"
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:438
+msgid "Note: Click here to set default headers as per the form fields or create manually to start with Entry Id as a first header name."
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:453
+msgid "Note: Entry Id must have to be the first header column in the sheet."
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:471
+msgid "Buy WPSyncSheets For Gravity Forms Pro"
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:485
+msgid "View Spreadsheet"
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:489
+msgid "Clear Spreadsheet"
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:492
+msgid "Clearing..."
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:496
+msgid "Download Spreadsheet"
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:513
+msgid "Click Here"
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:555
+msgid "WPSynSheets Google API Settings"
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:556
+msgid "To get started, please configure your "
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:569
+msgid "Select a Sheet List"
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:840
+msgid "Select Google Spreeadsheet List"
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:1011
+msgid "Sheet Headers"
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:1012
+msgid "Form Field"
+msgstr ""
+
+#: includes/class-wpsslgf-feed-settings.php:1377
+msgid "Sorry, your nonce did not verify."
+msgstr ""
+
+#: includes/class-wpsslgf-plugin-settings.php:130
+msgid "WPSyncSheets Lite"
+msgstr ""
+
+#: includes/class-wpsslgf-plugin-settings.php:257
+msgid "View Documentation"
+msgstr ""
+
+#: includes/class-wpsslgf-plugin-settings.php:274
+#: includes/class-wpsslgf-plugin-settings.php:293
+msgid "Error: Sorry, your nonce did not verify."
+msgstr ""
+
+#: includes/class-wpsslgf-plugin-settings.php:307
+msgid "Error: Invalid Token - Revoke Token with below settings and try again."
+msgstr ""
+
+#: includes/class-wpsslgf-plugin-settings.php:322
+msgid "Support"
+msgstr ""
+
+#: includes/class-wpsslgf-plugin-settings.php:325
+msgid "Documentation"
+msgstr ""
+
+#: includes/class-wpsslgf-plugin-settings.php:331
+msgid "Google API"
+msgstr ""
+
+#: includes/class-wpsslgf-plugin-settings.php:331
+msgid "Settings"
+msgstr ""
+
+#: includes/class-wpsslgf-plugin-settings.php:335
+msgid "Pro Features"
+msgstr ""
+
+#: includes/class-wpsslgf-plugin-settings.php:339
+#: includes/class-wpsslgf-plugin-settings.php:655
+msgid "Google API Settings"
+msgstr ""
+
+#: includes/class-wpsslgf-plugin-settings.php:340
+msgid "Create new google APIs with Client ID and Client Secret keys to get an access for the google drive and google sheets. Please follow the documentation, login to your Gmail Account and start with"
+msgstr ""
+
+#: includes/class-wpsslgf-plugin-settings.php:367
+msgid "Client Id"
+msgstr ""
+
+#: includes/class-wpsslgf-plugin-settings.php:369
+msgid "Enter Client Id"
+msgstr ""
+
+#: includes/class-wpsslgf-plugin-settings.php:379
+msgid "Client Secret"
+msgstr ""
+
+#: includes/class-wpsslgf-plugin-settings.php:381
+msgid "Enter Client Secret"
+msgstr ""
+
+#: includes/class-wpsslgf-plugin-settings.php:397
+#: includes/class-wpsslgf-plugin-settings.php:695
+msgid "Client Token"
+msgstr ""
+
+#: includes/class-wpsslgf-plugin-settings.php:403
+#: includes/class-wpsslgf-plugin-settings.php:702
+msgid "Click here to generate an Authentication Token"
+msgstr ""
+
+#: includes/class-wpsslgf-plugin-settings.php:424
+msgid "Please enter authentication code"
+msgstr ""
+
+#: includes/class-wpsslgf-plugin-settings.php:448
+msgid "Reset Settings"
+msgstr ""
+
+#: includes/class-wpsslgf-plugin-settings.php:459
+#: includes/class-wpsslgf-plugin-settings.php:752
+msgid "Authorized Domain : "
+msgstr ""
+
+#: includes/class-wpsslgf-plugin-settings.php:463
+#: includes/class-wpsslgf-plugin-settings.php:763
+msgid "Authorised redirect URIs : "
+msgstr ""
+
+#: includes/class-wpsslgf-plugin-settings.php:656
+msgid "Google APIs allow you to embed Google Services in your online site. To connect Google Drive and Google Sheets with your WordPress website, you need to generate dedicated API keys. To begin the process, kindly log in to your Gmail Account and follow the link to initiate the setup "
+msgstr ""
+
+#: includes/class-wpsslgf-plugin-settings.php:656
+msgid "click here"
+msgstr ""
+
+#: includes/class-wpsslgf-plugin-settings.php:667
+msgid "Client ID"
+msgstr ""
+
+#: includes/class-wpsslgf-plugin-settings.php:679
+msgid "Client Secret Key"
+msgstr ""
